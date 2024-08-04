@@ -1,0 +1,12 @@
+prefix=C:/gtk-build/gtk/x64/release
+includedir=${prefix}/include
+
+targets=win32
+gtk_binary_version=4.0.0
+gtk_host=x86_64-windows
+
+Name: GTK
+Description: GTK Graphical UI Library
+Version: 4.14.4
+Requires: gtk4
+Cflags: -I${includedir}
