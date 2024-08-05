@@ -1,0 +1,9 @@
+prefix=C:/gtk-build/gtk/x64/release
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: GNU FriBidi
+Description: Unicode Bidirectional Algorithm Library
+Version: 1.0.15
+Libs: -L${libdir} -lfribidi
+Cflags: -I${includedir}/fribidi

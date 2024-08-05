@@ -1,0 +1,298 @@
+    Budget = 4120379392
+Game [Info]: BuildLoadOut took 13.3ms
+Game [Info]: BuildLoadOut took 9.04ms
+Game [Info]: Saving profile took 27.3ms
+Snd [Error]: Buffer underrun streaming /Lotus/Sounds/Hub/LisetSpaceRandoms/LisetSpaceRandomE.wav (0 active streams)
+Game [Info]: BuildLoadOut took 12.2ms
+Script [Info]: MapRedux.lua: RollDuviriOffers - Generating new Duviri offers
+Script [Info]: MapRedux.lua: /Lotus/Powersuits/Pirate/Pirate generated as an unowned Cave selection for category: 3
+Script [Info]: MapRedux.lua: GenerateWeaponSelection - Rerolling mastered, unowned weapon. Original weapon: BrokenFrame. New weapon: Pirate
+Script [Info]: MapRedux.lua: /Lotus/Powersuits/Priest/HarrowPrime generated as an owned Cave selection for category: 3
+Script [Info]: MapRedux.lua: /Lotus/Powersuits/Excalibur/ExcaliburUmbra generated as an owned Cave selection for category: 3
+Script [Info]: MapRedux.lua: /Lotus/Powersuits/Fairy/TitaniaPrime generated as an owned Cave selection for category: 3
+Script [Info]: MapRedux.lua: /Lotus/Powersuits/Wisp/Wisp generated as an owned Cave selection for category: 3
+Script [Info]: MapRedux.lua: /Lotus/Weapons/Infested/LongGuns/InfestedRifle generated as an owned Cave selection for category: 1
+Script [Info]: MapRedux.lua: /Lotus/Weapons/Tenno/ThrowingWeapons/TennoStars generated as an unowned Cave selection for category: 0
+Script [Info]: MapRedux.lua: /Lotus/Weapons/Archon/Melee/Whip/ArchonWhipPlayerWep generated as an owned Cave selection for category: 5
+Script [Info]: MapRedux.lua: /Lotus/Weapons/Corpus/LongGuns/ChainLightningGun/ChainLightningRifle generated as an unowned Cave selection for category: 1
+Script [Info]: MapRedux.lua: /Lotus/Weapons/Tenno/Zariman/Pistols/HeavyPistol/ZarimanHeavyPistol generated as an owned Cave selection for category: 0
+Script [Info]: MapRedux.lua: /Lotus/Weapons/Infested/Melee/TipedoStaff/InfTipedoStaff generated as an owned Cave selection for category: 5
+Script [Info]: MapRedux.lua: /Lotus/Weapons/Tenno/Zariman/Melee/Dagger/ZarimanDaggerWeapon generated as an owned Cave selection for category: 5
+Script [Info]: MapRedux.lua: /Lotus/Weapons/Corpus/Pistols/CrpHandRL/CorpusHandRocketLauncher generated as an unowned Cave selection for category: 0
+Script [Info]: MapRedux.lua: Found 0 overrides.
+Script [Info]: MapRedux.lua: Generating Cave Selections took: 30.089099884033203ms
+Script [Info]: ChatRedux.lua: CHATREDUX - SessionID: 66a573a4cd1561e241028d12
+Script [Info]: ChatRedux.lua: CHATREDUX - SessionID2: 66a573a4cd1561e241028d12 - 66a573a4cd1561e241028d12
+Script [Info]: ChatRedux.lua: ChatRedux::AddTab: Adding tab with channel name: S66a573a4cd1561e241028d12 to index 1
+Script [Info]: ChatRedux.lua: Chat: Filters for S66a573a4cd1561e241028d12:
+Script [Info]: MapRedux.lua: Time: -120263.3125
+Snd [Error]: Buffer underrun streaming first packet for /Lotus/Sounds/UI/NewUI/StarchartRedux/UIStarchartZoomEnterRedux.wav (698ms s, 0 active streams)
+Script [Info]: LisetCustomizations.lua: Loading ship and skin took 0.7553167343139648 seconds
+Script [Info]: MapRedux.lua: MapRedux::NodeRollOver SolNode234 - DORMIZONE
+Game [Info]: ServerFramework:OpenLevel - /Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival/LDQ0NEgVLkwUSg5vWXXRDUlVDEBBAAAABCEA.lp
+Game [Info]: Level=/Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival/LDQ0NEgVLkwUSg5vWXXRDUlVDEBBAAAABCEA.lp
+Script [Info]: Progress.lua: Loading progress level /Lotus/Levels/Episodes/LisetInFlightAtmosphere.level
+Game [Info]: LevelLoader, added batch /Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival/LDQ0NEgVLkwUSg5vWXXRDUlVDEBBAAAABCEA.lp
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/IntShuttleBay/Scope, 1971 objects, 275 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConEWStraightShort02/Scope, 295 objects, 59 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConStraightEWGreenView/Scope, 1084 objects, 110 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/IntIndoctrinationHall/Scope, 1406 objects, 184 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConNSJunction05ShuttleCrash/Scope, 402 objects, 67 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/IntPark/Scope, 1769 objects, 249 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConCornerShort03/Scope, 827 objects, 99 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapEW01/Scope, 172 objects, 26 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapEW03/Scope, 411 objects, 39 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapNS03/Scope, 222 objects, 14 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapNS02/Scope, 251 objects, 14 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapNS01/Scope, 81 objects, 14 server-only objects
+Game [Info]: 255 - 10929 autonomous, 1420 server-only, ready: 0, incomplete: 0
+AI [Info]: TacticalAreaMap::AddZone new size7.89844
+AI [Info]: TacticalAreaMap::AddZone new size81.9072
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/IntShuttleBay/0.tmf adding 354 areas for total: 385
+AI [Info]: TacticalAreaMap::AddZone new size1134.8
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/ConEWStraightShort02/0.tmf adding 37 areas for total: 422
+AI [Info]: TacticalAreaMap::AddZone new size1213.76
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/DeadEndEWSurvival/0.tmf adding 23 areas for total: 445
+AI [Info]: TacticalAreaMap::AddZone new size1248.99
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/ConStraightEWGreenView/0.tmf adding 147 areas for total: 592
+AI [Info]: TacticalAreaMap::AddZone new size1664.96
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/IntIndoctrinationHall/0.tmf adding 228 areas for total: 820
+AI [Info]: TacticalAreaMap::AddZone new size2265.64
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/ConNSJunction05ShuttleCrash/0.tmf adding 61 areas for total: 881
+AI [Info]: TacticalAreaMap::AddZone new size2418.2
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/IntPark/0.tmf adding 323 areas for total: 1204
+AI [Info]: TacticalAreaMap::AddZone new size3381.87
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/ConNSJunction01OxyGarden/0.tmf adding 166 areas for total: 1370
+AI [Info]: TacticalAreaMap::AddZone new size3733.79
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/ConCornerShort03/0.tmf adding 79 areas for total: 1449
+AI [Info]: TacticalAreaMap::AddZone new size3894.62
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW02/0.tmf adding 19 areas for total: 1468
+AI [Info]: TacticalAreaMap::AddZone new size3932.92
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW02/0.tmf adding 19 areas for total: 1487
+AI [Info]: TacticalAreaMap::AddZone new size3971.21
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW01/0.tmf adding 17 areas for total: 1504
+AI [Info]: TacticalAreaMap::AddZone new size3996.48
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW03/0.tmf adding 18 areas for total: 1522
+AI [Info]: TacticalAreaMap::AddZone new size4025.9
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapNS03/0.tmf adding 24 areas for total: 1546
+AI [Info]: TacticalAreaMap::AddZone new size4062.73
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW03/0.tmf adding 18 areas for total: 1564
+AI [Info]: TacticalAreaMap::AddZone new size4092.15
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW03/0.tmf adding 18 areas for total: 1582
+AI [Info]: TacticalAreaMap::AddZone new size4121.58
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW02/0.tmf adding 19 areas for total: 1601
+AI [Info]: TacticalAreaMap::AddZone new size4159.87
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW01/0.tmf adding 17 areas for total: 1618
+AI [Info]: TacticalAreaMap::AddZone new size4185.13
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapNS02/0.tmf adding 25 areas for total: 1643
+AI [Info]: TacticalAreaMap::AddZone new size4221.74
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapNS01/0.tmf adding 17 areas for total: 1660
+AI [Info]: TacticalAreaMap::AddZone new size4245.67
+Script [Info]: LisetCustomizations.lua: Loading ship and skin took 0.940292477607727 seconds
+Game [Info]: BuildLoadOut took 13.2ms
+Game [Warning]: Player camera not enabled. Free cam=0, this cinematic: /Layer255/Layer32/Prefab0/Cinematic0, player cam disabled: 0
+Game [Warning]: Playing cinematic=/Layer255/Layer32/Prefab0/Cinematic0
+Anim [Info]: Using /Layer255/Layer32/Prefab0/PlayerLisetSmall0 as LisetSmall
+Anim [Info]: Using /Layer255/Layer32/Prefab0/SquadLisetSmall1 as LisetSmallB
+Anim [Info]: Using /Layer255/Layer32/Prefab0/SquadLisetSmall2 as LisetSmallC
+Anim [Info]: Using /Layer255/Layer32/Prefab0/SquadLisetSmall3 as LisetSmallD
+Anim [Info]: Using /Layer255/Layer32/Prefab0/SquadLisetSmall4 as LisetSmallE
+Anim [Info]: Using /Layer255/Layer32/Prefab0/SquadLisetSmall5 as LisetSmallF
+Anim [Info]: Using /Layer255/Layer32/Prefab0/SquadLisetSmall6 as LisetSmallG
+Anim [Info]: Using /Layer255/Layer32/Prefab0/SquadLisetSmall7 as LisetSmallH
+Script [Info]: ProceduralLevel.lua: Skipping waypoint /Layer255/Layer15/Layer1/PowerRiftWaypoint0. Too many nearby.
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-47.9998, -0.999996, -93.9999)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-93.7498, 8, -121.25)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(9.75016, 8, -137.25)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-33.9998, 3.5, -153.25)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-41.9998, 1.5, -206)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(135.25, -20, -142.249)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(125.5, -11, -190.999)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(174, -20, -176.499)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(122.75, -12.15, -360.499)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(140.5, -5.65, -400.749)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(89.7501, -6.15, -427.499)
+Script [Info]: ZarimanSurvivalMission.lua: ID = 12
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(193.25, -13.9, -406.749)
+Game [Info]: BuildLoadOut took 577us
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Past while for corrupt. Pillar at Vector(-47.9998, -0.999996, -93.9999)
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Finished setting up the corrupted effects for pillar at Vector(-47.9998, -0.999996, -93.9999)
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Shock wave effect concluded for corrupted pillar at Vector(-47.9998, -0.999996, -93.9999)
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Enabled void bubble for corrupted pillar at Vector(-47.9998, -0.999996, -93.9999)
+Script [Info]: RareSpawnScript.lua: COLLECTOR: failed reqs: early out bailing on spawn setup
+Script [Info]: TeleportOutOfVolume.lua: Teleport logic starting on: TennoAvatar7
+Script [Info]: TeleportOutOfVolume.lua: Teleport logic starting on: CombatOperatorAvatar9
+Game [Info]: GetQueuedTransmission returns: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasFirstPillar2070Quinn
+Script [Info]: HudRedux.lua: Queuing new transmission: DZarCasFirstPillar2070Quinn
+Script [Info]: HudRedux.lua: Queued a transmission from Hud: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasFirstPillar2070Quinn
+Script [Info]: LotusGameRules.lua: AmmoDropTableAtten: Adding Upgrade of 0.22500000894069672 to CombatOperatorAvatar9
+Game [Info]: gatohark - new avatar: CombatOperatorAvatar9
+Script [Info]: OperatorTransference.lua: ABLIB: RemoveInvis CombatOperatorAvatar9 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj
+Script [Info]: EidolonMP.lua: EIDOLONMP: Avatar needs to leave the zone: CombatOperatorAvatar9 = false
+Script [Info]: TeleportOutOfVolume.lua: TennoAvatar7 running on ZarimanSurvivalAntiWarframeArea
+Script [Info]: TeleportOutOfVolume.lua: Teleport logic starting on: CatbrowPetAvatar8
+Script [Info]: ZarimanSurvivalMission.lua: Cleansing SurvivalLifeSupportPillarCorruptible
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Starting cleanse
+Script [Info]: ZarimanSurvivalMission.lua: Randomized spawn radius = 0.9858698844909668
+Script [Info]: ZarimanSurvivalMission.lua: CAP is 2 out of a start/end = 2 / 3
+AI [Info]: OnAgentCreated /Npc/DuviriMeleeAgent1 Live 1 Spawned 0 Ticking 1 Paused 0 IgnoredTicking 1 MonitoredTicking 0 AllyLive 1 AllyActive 1 NeutralActive 0
+Script [Info]: ZarimanSurvivalMission.lua: Log: Players cleansed all corrupted pillars
+Script [Info]: ZarimanSurvivalCorruptionBehavior.lua: Wraith started Corrupt Behaviour
+Script [Info]: ZarimanSurvivalCorruptionBehavior.lua: New wraith: purged out of a pillar!
+Script [Info]: ZarimanSurvivalMission.lua: ModeState = 4
+Script [Info]: ZarimanSurvivalMission.lua: Zariman Survival (Void Cascade): State Change: ENDLESS
+AI [Info]: OnAgentCreated /Npc/ShipMoaDeraAgent2 Live 2 Spawned 1 Ticking 2 Paused 0 IgnoredTicking 1 MonitoredTicking 1 AllyLive 1 AllyActive 1 NeutralActive 0
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Past while for cleanse. Pillar at Vector(-47.9998, -0.999996, -93.9999)
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: Cleansed aura set for pillar at Vector(-47.9998, -0.999996, -93.9999)
+AI [Info]: OnAgentCreated /Npc/ShipMoaDeraAgent3 Live 3 Spawned 2 Ticking 3 Paused 0 IgnoredTicking 1 MonitoredTicking 2 AllyLive 1 AllyActive 1 NeutralActive 0
+AI [Info]: OnAgentCreated /Npc/ShipCrewmanEliteRegularGrenadeAgent4 Live 4 Spawned 3 Ticking 4 Paused 0 IgnoredTicking 1 MonitoredTicking 3 AllyLive 1 AllyActive 1 NeutralActive 0
+AI [Info]: OnAgentCreated /Npc/ShipCrewmanEliteRegularGrenadeAgent5 Live 5 Spawned 4 Ticking 5 Paused 0 IgnoredTicking 1 MonitoredTicking 4 AllyLive 1 AllyActive 1 NeutralActive 0
+Game [Info]: GetQueuedTransmission returns: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasStart2080Quinn
+Script [Info]: HudRedux.lua: Queuing new transmission: DZarCasStart2080Quinn
+Script [Info]: HudRedux.lua: Queued a transmission from Hud: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasStart2080Quinn
+AI [Info]: OnAgentCreated /Npc/ShipCrewmanEliteRegularGrenadeAgent6 Live 6 Spawned 5 Ticking 6 Paused 0 IgnoredTicking 1 MonitoredTicking 5 AllyLive 1 AllyActive 1 NeutralActive 0
+AI [Info]: OnAgentCreated /Npc/ShipMoaDeraAgent7 Live 7 Spawned 6 Ticking 7 Paused 0 IgnoredTicking 1 MonitoredTicking 6 AllyLive 1 AllyActive 1 NeutralActive 0
+AI [Info]: OnAgentCreated /Npc/ShipMoaDeraAgent8 Live 8 Spawned 7 Ticking 8 Paused 0 IgnoredTicking 1 MonitoredTicking 7 AllyLive 1 AllyActive 1 NeutralActive 0
+AI [Info]: OnAgentCreated /Npc/ShipCrewmanEliteRegularGrenadeAgent9 Live 9 Spawned 8 Ticking 9 Paused 0 IgnoredTicking 1 MonitoredTicking 8 AllyLive 1 AllyActive 1 NeutralActive 0
+AI [Info]: OnAgentCreated /Npc/ShipCrewmanEliteRegularGrenadeAgent10 Live 10 Spawned 9 Ticking 10 Paused 0 IgnoredTicking 1 MonitoredTicking 9 AllyLive 1 AllyActive 1 NeutralActive 0
+Script [Info]: ZarimanSurvivalMission.lua: Enabling wraith spawn...
+Script [Info]: ZarimanSurvivalMission.lua: ObjectiveText.lua::ClearPrimaryObjText()
+Script [Info]: PlayerScript.lua: Idle -> combat
+Script [Info]: Transmission.lua: Updated pulled nextQueued: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasFirstPillar2070Quinn
+Game [Info]: Ending injury GrineerSlashDamageProc
+Script [Info]: DuviriAvatarReviveForm.lua: targetAvatar /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/Avatars/ShipCrewmanEliteAvatar
+Script [Info]: RewardFocus.lua: CombatOperatorAvatar9 killed DuviriMeleeAvatar10, rewarding 2500 focus XP
+AI [Info]: OnAgentCreated /Npc/ShipMoaDeraAgent11 Live 10 Spawned 10 Ticking 10 Paused 0 IgnoredTicking 1 MonitoredTicking 9 AllyLive 1 AllyActive 1 NeutralActive 0
+Snd [Error]: Looping sound /Lotus/Sounds/Warframes/Pacifist/PacifistDisarmLoop was left dangling
+AI [Info]: OnAgentCreated /Npc/GenericDisarmedAgent Live 10 Spawned 10 Ticking 11 Paused 0 IgnoredTicking 1 MonitoredTicking 10 AllyLive 1 AllyActive 1 NeutralActive 0
+Script [Info]: Transmission.lua: Updated pulled nextQueued: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasStart2080Quinn
+AI [Info]: OnAgentCreated /Npc/ShipMoaDeraAgent12 Live 11 Spawned 11 Ticking 10 Paused 0 IgnoredTicking 1 MonitoredTicking 9 AllyLive 1 AllyActive 1 NeutralActive 0
+Script [Info]: ConsumablesOverlay.lua: ScopeDebug: Hide from ConsumablesOverlay
+AI [Info]: OnAgentCreated /Npc/GenericDisarmedAgent Live 11 Spawned 11 Ticking 11 Paused 0 IgnoredTicking 1 MonitoredTicking 10 AllyLive 1 AllyActive 1 NeutralActive 0
+Script [Info]: ConsumablesOverlay.lua: ScopeDebug: Show from ConsumablesOverlay
+AI [Info]: OnAgentCreated /Npc/GenericDisarmedAgent Live 10 Spawned 11 Ticking 11 Paused 0 IgnoredTicking 1 MonitoredTicking 10 AllyLive 1 AllyActive 1 NeutralActive 0
+AI [Error]: Timed out waiting for Melee to Start
+Game [Info]: GetQueuedTransmission returns: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasNegRate2490Quinn
+Script [Info]: HudRedux.lua: Queuing new transmission: DZarCasNegRate2490Quinn
+Script [Info]: HudRedux.lua: Queued a transmission from Hud: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasNegRate2490Quinn
+Script [Info]: Transmission.lua: Updated pulled nextQueued: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasNegRate2490Quinn
+Snd [Error]: Buffer underrun streaming /Lotus/Sounds/Quests/TheNewWar/Ambience/Zariman/Misc/TNWZarimanFactoryTextureF.wav (0 active streams)
+Script [Info]: ZarimanSurvivalMission.lua: Spawned capsule with id 4
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Past while for corrupt. Pillar at Vector(-33.9998, 3.5, -153.25)
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Finished setting up the corrupted effects for pillar at Vector(-33.9998, 3.5, -153.25)
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Shock wave effect concluded for corrupted pillar at Vector(-33.9998, 3.5, -153.25)
+Game [Info]: GetQueuedTransmission returns: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasCorruptDrop2150Quinn
+Script [Info]: HudRedux.lua: Queuing new transmission: DZarCasCorruptDrop2150Quinn
+Script [Info]: HudRedux.lua: Queued a transmission from Hud: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasCorruptDrop2150Quinn
+Script [Info]: Transmission.lua: Updated pulled nextQueued: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasCorruptDrop2150Quinn
+    Budget = 4119461888
+Game [Info]: BuildLoadOut took 13.6ms
+Game [Info]: BuildLoadOut took 7.59ms
+Game [Info]: Saving profile took 16.5ms
+Game [Info]: BuildLoadOut took 10.1ms
+Script [Info]: MapRedux.lua: RollDuviriOffers - Using cached duviri offers
+Script [Info]: MapRedux.lua: Generating Cave Selections took: 5.669100284576416ms
+Script [Info]: ChatRedux.lua: CHATREDUX - SessionID: 66a575108ec3dd115e0d0439
+Script [Info]: ChatRedux.lua: CHATREDUX - SessionID2: 66a575108ec3dd115e0d0439 - 66a575108ec3dd115e0d0439
+Script [Info]: ChatRedux.lua: ChatRedux::AddTab: Adding tab with channel name: S66a575108ec3dd115e0d0439 to index 1
+Script [Info]: ChatRedux.lua: Chat: Filters for S66a575108ec3dd115e0d0439:
+Script [Info]: MapRedux.lua: Time: -120616.6875
+Snd [Error]: Buffer underrun streaming first packet for /Lotus/Sounds/UI/NewUI/StarchartRedux/UIStarchartZoomEnterRedux.wav (806ms s, 0 active streams)
+Script [Info]: LisetCustomizations.lua: Loading ship and skin took 0.8820160627365112 seconds
+Script [Info]: MapRedux.lua: MapRedux::NodeRollOver SolNode231 - HALAKO PERIMETER
+Game [Info]: ServerFramework:OpenLevel - /Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival/LDBAnBAVjaCQOETFgy8dRRFYjJCABAQAhAEAAgA.lp
+Game [Info]: Level=/Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival/LDBAnBAVjaCQOETFgy8dRRFYjJCABAQAhAEAAgA.lp
+Script [Info]: Progress.lua: Loading progress level /Lotus/Levels/Episodes/LisetInFlight.level
+Game [Info]: LevelLoader, added batch /Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival/LDBAnBAVjaCQOETFgy8dRRFYjJCABAQAhAEAAgA.lp
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/IntSchool/Scope, 3157 objects, 439 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConEWJunctionShort02/Scope, 905 objects, 160 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConNSJunction06MonumentHalls/Scope, 1073 objects, 235 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/IntParkB/Scope, 1487 objects, 239 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConCrossShort01/Scope, 495 objects, 78 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/IntLunaroCourt/Scope, 2124 objects, 244 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConCornerPersonalShuttleBay/Scope, 900 objects, 107 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapEW03/Scope, 274 objects, 26 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapNS02/Scope, 502 objects, 28 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/SafeCapNS/Scope, 2 objects, 0 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapNS03/Scope, 666 objects, 42 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapEW01/Scope, 86 objects, 13 server-only objects
+Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapNS01/Scope, 243 objects, 42 server-only objects
+Game [Info]: 255 - 13928 autonomous, 1923 server-only, ready: 0, incomplete: 0
+Phys [Error]: Entity (/Layer255/Layer2/Layer0/Prefab14/Decoration0) is jointed to (SeeSawJoint), but is static. Attached entities may be either dynamic or None.!
+Phys [Error]: Entity (/Layer255/Layer2/Layer0/Prefab15/Decoration0) is jointed to (SeeSawJoint), but is static. Attached entities may be either dynamic or None.!
+AI [Info]: TacticalAreaMap::AddZone new size10.2453
+AI [Info]: TacticalAreaMap::AddZone new size84.2541
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/IntSchool/0.tmf adding 563 areas for total: 594
+AI [Info]: TacticalAreaMap::AddZone new size1901.2
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/ConEWJunctionShort02/0.tmf adding 88 areas for total: 682
+AI [Info]: TacticalAreaMap::AddZone new size2146.56
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/DeadEndEWSurvival/0.tmf adding 23 areas for total: 705
+AI [Info]: TacticalAreaMap::AddZone new size2181.79
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/ConNSJunction06MonumentHalls/0.tmf adding 149 areas for total: 854
+AI [Info]: TacticalAreaMap::AddZone new size2616.79
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/IntParkB/0.tmf adding 256 areas for total: 1110
+AI [Info]: TacticalAreaMap::AddZone new size3511.53
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/ConCrossShort01/0.tmf adding 54 areas for total: 1164
+AI [Info]: TacticalAreaMap::AddZone new size3629.39
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/IntLunaroCourt/0.tmf adding 237 areas for total: 1401
+AI [Info]: TacticalAreaMap::AddZone new size4319.22
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/ConCornerPersonalShuttleBay/0.tmf adding 99 areas for total: 1500
+AI [Info]: TacticalAreaMap::AddZone new size4574.28
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/ConNSJunction01OxyGarden/0.tmf adding 166 areas for total: 1666
+AI [Info]: TacticalAreaMap::AddZone new size4926.21
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW03/0.tmf adding 18 areas for total: 1684
+AI [Info]: TacticalAreaMap::AddZone new size4955.63
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapNS02/0.tmf adding 25 areas for total: 1709
+AI [Info]: TacticalAreaMap::AddZone new size4992.23
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW02/0.tmf adding 19 areas for total: 1728
+AI [Info]: TacticalAreaMap::AddZone new size5030.53
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW02/0.tmf adding 19 areas for total: 1747
+AI [Info]: TacticalAreaMap::AddZone new size5068.82
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW03/0.tmf adding 18 areas for total: 1765
+AI [Info]: TacticalAreaMap::AddZone new size5098.24
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapNS03/0.tmf adding 24 areas for total: 1789
+AI [Info]: TacticalAreaMap::AddZone new size5135.08
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW01/0.tmf adding 17 areas for total: 1806
+AI [Info]: TacticalAreaMap::AddZone new size5160.34
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapNS03/0.tmf adding 24 areas for total: 1830
+AI [Info]: TacticalAreaMap::AddZone new size5197.17
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapEW02/0.tmf adding 19 areas for total: 1849
+AI [Info]: TacticalAreaMap::AddZone new size5235.47
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapNS03/0.tmf adding 24 areas for total: 1873
+AI [Info]: TacticalAreaMap::AddZone new size5272.3
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapNS01/0.tmf adding 17 areas for total: 1890
+AI [Info]: TacticalAreaMap::AddZone new size5296.23
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapNS01/0.tmf adding 17 areas for total: 1907
+AI [Info]: TacticalAreaMap::AddZone new size5320.15
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapNS02/0.tmf adding 25 areas for total: 1932
+AI [Info]: TacticalAreaMap::AddZone new size5356.76
+AI [Info]: TacticalAreaMap::AddZone /Lotus/Levels/Zariman/CapNS01/0.tmf adding 17 areas for total: 1949
+AI [Info]: TacticalAreaMap::AddZone new size5380.69
+Script [Info]: LisetCustomizations.lua: Loading ship and skin took 1.0374735593795776 seconds
+Game [Info]: BuildLoadOut took 10.5ms
+Game [Warning]: Player camera not enabled. Free cam=0, this cinematic: /Layer255/Layer36/Prefab0/Cinematic4, player cam disabled: 0
+Game [Warning]: Playing cinematic=/Layer255/Layer36/Prefab0/Cinematic4
+Anim [Info]: Using /Layer255/Layer36/Prefab0/PlayerLisetSmall0 as LisetSmall
+Anim [Info]: Using /Layer255/Layer36/Prefab0/SquadLisetSmall1 as LisetSmallB
+Anim [Info]: Using /Layer255/Layer36/Prefab0/SquadLisetSmall2 as LisetSmallC
+Anim [Info]: Using /Layer255/Layer36/Prefab0/SquadLisetSmall3 as LisetSmallD
+Anim [Info]: Using /Layer255/Layer36/Prefab0/SquadLisetSmall4 as LisetSmallE
+Anim [Info]: Using /Layer255/Layer36/Prefab0/SquadLisetSmall5 as LisetSmallF
+Anim [Info]: Using /Layer255/Layer36/Prefab0/SquadLisetSmall6 as LisetSmallG
+Anim [Info]: Using /Layer255/Layer36/Prefab0/SquadLisetSmall7 as LisetSmallH
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-106.5, -0.999996, -27.25)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-166, -14.5, -33.75)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-181.5, -14.5, -82.5)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-216.25, -8.75, -32)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-236.5, -4.4, 213)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-231.5, 0.600004, 270.5)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-271.25, -10.65, 250.75)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-273, 0.749274, 298)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-424.5, -1.9, 312)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-422.75, -3.42, 352.5)
+Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-441.75, -1.9, 391.75)
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Past while for corrupt. Pillar at Vector(-106.5, -0.999996, -27.25)
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Finished setting up the corrupted effects for pillar at Vector(-106.5, -0.999996, -27.25)
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Shock wave effect concluded for corrupted pillar at Vector(-106.5, -0.999996, -27.25)
+Game [Info]: BuildLoadOut took 647us
+Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Enabled void bubble for corrupted pillar at Vector(-106.5, -0.999996, -27.25)

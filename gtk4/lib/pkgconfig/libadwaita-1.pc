@@ -1,0 +1,11 @@
+prefix=C:/gtk-build/gtk/x64/release
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: Adwaita
+Description: Building blocks for modern GNOME applications
+Version: 1.5.2
+Requires: gtk4 >=  4.13.4
+Requires.private: glib-2.0, fribidi, gio-2.0, gtk4-win32 >=  4.13.4
+Libs: -L${libdir} -ladwaita-1
+Cflags: -I${includedir}/libadwaita-1

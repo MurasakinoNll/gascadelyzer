@@ -1,0 +1,783 @@
+3.955 Script [Info]: ScriptMgr::Initialize() 0 bytes, 0 allocs
+    Budget = 4119330816
+    CurrentUsage = 12582912
+    AvailableForReservation = 2276458496
+    CurrentReservation = 0
+    Budget = 6117037056
+    CurrentUsage = 19087360
+    AvailableForReservation = 3058518528
+    CurrentReservation = 0
+7.510 Snd [Info]: XAudio2Driver Initialized
+7.510 Snd [Diag]: XAudio2: Found device {0.0.0.00000000}.{FF2402EA-EDCF-4F9B-91C5-6060F5D7F3F0} (Out: default)
+7.510 Snd [Diag]: XAudio2: Stereo output (2 channels)
+17.264 Script [Info]: UISTYLE: initialized 1
+17.264 Script [Info]: UIBACKGROUND: initialized 1
+17.264 Script [Info]: UISOUNDS: initialized 1
+17.598 Game [Info]: ServerFramework:OpenLevel - /Lotus/Levels/Proc/PlayerShip/AeA0.lp
+17.639 Game [Info]: SetCurrentServerLayerIndex(4294967295)
+17.743 Game [Info]: SetCurrentServerLayerIndex(4294967295)
+17.750 Game [Info]: HostMigration::ResetOldServerConnection()
+17.788 Script [Info]: Progress.lua: Initialize
+17.789 Script [Info]: Progress.lua: UISTYLE: _G.CurrStyle invalid, updating theme
+17.789 Script [Info]: Progress.lua: UISTYLE: overlayMgr valid
+17.789 Script [Info]: Progress.lua: UISTYLE: style valid, _G.CurrStyle assigned
+17.850 Game [Info]: Server::LoadClient: Context objects:
+17.850 Game [Info]: /Lotus/Types/GameRules/AlternateLotusFrontEndGameRules
+17.850 Game [Info]: Level=/Lotus/Levels/Proc/PlayerShip/AeA0.lp
+17.861 Script [Info]: ScriptMgr::ResetGlobals()
+28.573 Script [Info]: Background.lua: UISTYLE: Style changed callback registered
+28.573 Script [Info]: Background.lua: No game rules, early out
+28.573 Script [Info]: Background.lua: Background.lua: Initialize
+28.573 Game [Info]: Region index=1, layer=4294967295
+28.573 Game [Info]: SynchronizingState::Enter
+28.574 Game [Info]: LevelLoader, added batch /Lotus/Levels/Proc/PlayerShip/AeA0.lp
+28.574 Game [Info]: LevelLoader, InitBatch
+28.576 Game [Info]: Level loader: LS_COMPLETE -> LS_PREPARE
+28.576 Game [Info]: Level loader: LS_PREPARE -> LS_CREATE_EX
+28.597 Script [Info]: Background.lua: UISTYLE: Style changed callback called
+28.597 Script [Info]: Background.lua: UISTYLE: _G.CurrStyle invalid, updating theme
+28.597 Script [Info]: Background.lua: UISTYLE: overlayMgr valid
+28.597 Script [Info]: Background.lua: UISTYLE: style valid, _G.CurrStyle assigned
+28.838 Script [Info]: Background.lua: Background::PushChildMovie(Default)
+29.298 Script [Info]: ThemedMainMenu.lua: *** Main menu -- initialize ***
+36.546 Game [Info]: Added streaming layer /Lotus/Levels/Hub/PlayerShipInteriorLiset/Scope, 311 objects, 13 server-only objects
+36.546 Game [Info]: Added streaming layer /Lotus/Levels/Hub/PlayerShipInteriorOrbiter/Scope, 1553 objects, 73 server-only objects
+36.546 Game [Info]: Added streaming layer /Lotus/Levels/Proc/LisetExit/Scope, 4 objects, 0 server-only objects
+36.546 Game [Info]: Added streaming layer /Lotus/Levels/Hub/Fittings/PlayerShipInteriorFitting/Scope, 6 objects, 0 server-only objects
+36.546 Game [Info]: Added streaming layer /Lotus/Levels/Backdrops/ZarimanRegion/Scope, 45 objects, 0 server-only objects
+36.575 Game [Info]: 2047 - 1671 autonomous, 86 server-only, ready: 0, incomplete: 0
+42.444 Game [Info]: Level loader: LS_CREATE_EX -> LS_POST_CREATE
+42.448 Game [Info]: SetCurrentServerLayerIndex(4294967295)
+42.449 Game [Info]: Level loader: LS_POST_CREATE -> LS_COMPLETE
+42.450 Game [Info]: StartClientReplication(0)
+42.450 Game [Info]: ClientImpl::PlayersChanged. Player=, change=REGISTERED
+42.450 Game [Info]: CreatePlayerForClient. id=0, user name=Player
+42.451 Game [Info]: Player - new avatar: TennoShipAvatar0
+42.452 Game [Info]: Prev game rules was FrontEnd 1
+42.673 Game [Info]: Old player not found!
+42.700 Game [Info]: ====== Completed Initializing Nav and Tac
+42.793 Game [Info]: FinalizeHostMigration, have data for 0 agent(s)
+46.065 Script [Info]: Background.lua: LoadOut resource loader is done; showing avatar
+46.067 Game [Info]: UpgradeManager::Clear()
+46.086 Game [Error]: Artifact with no item compat: PowerSnapFocusUpgrade14
+46.086 Game [Error]: Artifact with no item compat: ConsecutivePowerUpgrade15
+46.086 Game [Error]: Artifact with no item compat: SecondChanceFocusUpgrade16
+46.086 Game [Error]: Artifact with no item compat: SecondChanceDamageBuffFocusUpgrade17
+46.102 Game [Info]: BuildLoadOut took 35.1ms
+46.150 Script [Info]: Progress.lua: Starting Vignette close animation...
+46.151 Script [Info]: ThemedMainMenu.lua: MainMenu::SetCurrentState(0)
+46.151 Script [Info]: ThemedMainMenu.lua: SetCurrentState checking states: nil currentState: 0
+46.152 Script [Info]: ThemedMainMenu.lua: UpdateButtons(true)
+46.152 Script [Info]: Background.lua: Background::ForceClearChildMovie()
+46.164 Game [Info]: TennoShipAvatar0 - changing anim controller to PacifistAnimController
+47.717 Script [Info]: Progress.lua: ProgressScreenClosed
+52.908 Script [Info]: ThemedMainMenu.lua: StartLogin()
+52.908 Script [Info]: ThemedMainMenu.lua: DispatchLogin()
+52.908 Script [Info]: ThemedMainMenu.lua: UpdateButtons(false)
+55.074 Game [Info]: OnSynchPlatformFriends(0)
+59.472 Script [Info]: ThemedMainMenu.lua: MainMenu::LoginDone result=true
+59.491 Script [Info]: ThemedMainMenu.lua: MainMenu::SetCurrentState(6)
+59.491 Script [Info]: ThemedMainMenu.lua: SetCurrentState checking states: 0 currentState: 6
+59.494 Game [Info]: SetReturnToLobbyLevelArgs, reset to default
+59.544 Game [Info]: Mission progress XP: 39845
+59.553 Script [Info]: PlayerShip.lua: Creating pet loader for 29 types.
+59.654 Script [Info]: ThemedMainMenu.lua: MainMenu::SetCurrentState(4)
+59.654 Script [Info]: ThemedMainMenu.lua: SetCurrentState checking states: 6 currentState: 4
+59.654 Script [Info]: ThemedMainMenu.lua: MainMenu::SetCurrentState(2)
+59.654 Script [Info]: ThemedMainMenu.lua: SetCurrentState checking states: 4 currentState: 2
+59.654 Script [Info]: ThemedMainMenu.lua: MainMenu::SetCurrentState(5)
+59.654 Script [Info]: ThemedMainMenu.lua: SetCurrentState checking states: 2 currentState: 5
+59.654 Script [Info]: Background.lua: Background::ForceClearChildMovie()
+59.654 Script [Info]: Background.lua: Background::ForceClearChildMovie()
+59.654 Script [Info]: Background.lua: Background::ForceClearChildMovie()
+59.654 Script [Info]: Background.lua: Background::ForceClearChildMovie()
+59.669 Script [Info]: ThemedMainMenu.lua: MainMenu::SetCurrentState(1)
+59.669 Script [Info]: ThemedMainMenu.lua: SetCurrentState checking states: 5 currentState: 1
+59.673 Game [Info]: Mission progress XP: 39845
+59.673 Script [Info]: Background.lua: Background::OnLoginDone()
+59.673 Script [Info]: Background.lua: Login: No Daily
+59.673 Script [Info]: Background.lua: LoadOut resource loader is done; showing avatar
+59.729 Game [Info]: UpgradeManager::Clear()
+59.737 Game [Error]: Artifact with no item compat: PowerSnapFocusUpgrade103
+59.737 Game [Error]: Artifact with no item compat: ConsecutivePowerUpgrade104
+59.737 Game [Error]: Artifact with no item compat: SecondChanceFocusUpgrade105
+59.755 Game [Info]: BuildLoadOut took 26.2ms
+59.759 Script [Info]: Background.lua: Background: world state refreshed from db
+59.784 Script [Info]: Background.lua: EliteAlert: generated boosts for gatohark: suitType=/Lotus/Powersuits/Jade/Jade wepTypes=/Lotus/Weapons/Archon/Melee/Whip/ArchonWhipPlayerWep, /Lotus/Weapons/Tenno/Akimbo/AkimboPistol, /Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol, 
+59.819 Script [Info]: Background.lua: Mission Chain:
+	Disruption - StickyFingers
+	Alchemy - VolatileGrenades
+	Extermination - NecramechActivation
+	Conditions:				Mission 1: ShieldedFoes, PointBlank	Mission 2: ExplosiveCrawlers, Voidburst	Mission 3: EMPBlackHole, RegeneratingEnemies	
+	Suit Suggestions:		/Lotus/StoreItems/Powersuits/Infestation/Infestation, /Lotus/StoreItems/Powersuits/Nezha/Nezha, /Lotus/StoreItems/Powersuits/Ranger/Ranger
+	Pistol Suggestions:		/Lotus/StoreItems/Weapons/Tenno/Pistols/SundialGun/SundialPistol, /Lotus/StoreItems/Weapons/Tenno/Akimbo/DualVastos, /Lotus/StoreItems/Weapons/Tenno/Pistols/QuillDartgun/QuillDartGunWeapon
+	Long Gun Suggestions:	/Lotus/StoreItems/Weapons/ClanTech/Chemical/RocketLauncher, /Lotus/StoreItems/Weapons/Tenno/LongGuns/FiveShotSniper/FiveShotSniper, /Lotus/StoreItems/Weapons/Tenno/LongGuns/TnHeavyShotgun/TnHeavyShotgunGun
+	Melee Suggestions:		/Lotus/StoreItems/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanWeapon, /Lotus/StoreItems/Weapons/Tenno/Melee/Hammer/IceHammer/IceHammer, /Lotus/StoreItems/Weapons/Tenno/Melee/Soma/SomaDualKamas
+	Variables:				OperatorLockout, Knifestep, Starvation, Exhaustion
+59.819 Script [Info]: Background.lua: Update the Profile Variable
+59.819 Script [Info]: Background.lua: Value was 0, reset it to 0
+59.827 Script [Info]: Background.lua: EliteAlert: generated boosts for gatohark: suitType=/Lotus/Powersuits/Gyre/Gyre wepTypes=/Lotus/Weapons/Cephalon/Melee/Hammer/CephHammerWeapon, /Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/CrpFreezeRayRifle, /Lotus/Weapons/Tenno/ThrowingWeapons/GlassKunai/GlassKunaiWeapon, 
+59.827 Script [Info]: Background.lua: EliteAlertMission at ClanNode8 (Mars - Kadesh)
+59.830 Script [Info]: Background.lua: Background::ForceClearChildMovie()
+59.962 Script [Info]: ChatRedux.lua: UISTYLE: using legacy colors
+59.976 Script [Info]: ThemedSquadOverlay.lua: SquadOverlay -- Initialize
+59.977 Script [Info]: ThemedSquadOverlay.lua: Create(SquadInfo)::Initialize()
+59.979 Script [Info]: ThemedSquadOverlay.lua: Current UI mode: 1
+59.979 Script [Info]: ThemedSquadOverlay.lua: OnLoginComplete - squad overlay
+59.979 Script [Info]: ThemedSquadOverlay.lua: UISTYLE: SquadOverlay::InitializeColors()
+59.980 Script [Info]: Background.lua: CheckForAvailableRankUp()
+59.983 Script [Info]: Background.lua: Found no Identified Omega Mods
+59.983 Script [Info]: Background.lua: Tried to close non-existent blocking message
+59.983 Script [Info]: Background.lua: Goal check is now false
+59.999 Script [Info]: Hub.lua: Initializing UI triggers
+59.999 Script [Info]: Hub.lua: Inventory sync done
+59.999 Script [Info]: Background.lua: initializing region challenges
+59.999 Script [Info]: Background.lua: regions: 23
+60.011 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/2024Bundles/EmberHeirloomPack
+60.012 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/PrimeAccess1Tier3StoreItem
+60.020 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/PrimeAccess1Tier3StoreItem
+60.021 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/2024Bundles/EmberHeirloomPack
+60.021 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/2024Bundles/JadeShadowsSupporterPack
+60.021 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/2024Bundles/DanteChroniclesPack
+60.021 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/SanctumPack
+60.021 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/PowerPack
+60.021 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/2024Bundles/WeaponStarterPack
+60.021 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/PrimeAccess1Tier2StoreItem
+60.021 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/PrimeAccess1Tier1StoreItem
+60.021 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/PrimeAccess1AccessoryStoreItem
+60.024 Script [Info]: DiegeticNews.lua: DiegeticNews:SetLiteMode(true)
+60.035 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/2024Bundles/EmberHeirloomPack
+60.037 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/PrimeAccess1Tier3StoreItem
+60.044 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/PrimeAccess1Tier3StoreItem
+60.044 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/2024Bundles/EmberHeirloomPack
+60.044 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/2024Bundles/JadeShadowsSupporterPack
+60.044 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/2024Bundles/DanteChroniclesPack
+60.044 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/SanctumPack
+60.044 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/PowerPack
+60.045 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/2024Bundles/WeaponStarterPack
+60.045 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/PrimeAccess1Tier2StoreItem
+60.045 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/PrimeAccess1Tier1StoreItem
+60.045 Script [Info]: StoreLite.lua: External product does not have a valid price: /Lotus/Types/StoreItems/Packages/PrimeAccess1AccessoryStoreItem
+60.046 Script [Info]: DiegeticNews.lua: DiegeticNews:SetLiteMode(true)
+Unknown property: Tutorial
+60.104 Script [Info]: ThemedMainMenu.lua: Main menu.lua - received stats
+OnUploadChallengeProgressResults: mRecentSeasonChallengeCompletions=0, mSavingRecentSeasonChallengeCompletions=0
+60.168 Game [Warning]: /Lotus/Interface/Graphics/MarketBacker/MarketBackerBg.png can't execute OnLoaded callback, invalid owner
+60.221 Script [Info]: PlayerShip.lua: Pet resource loader is done; spawning pets...
+60.439 Game [Info]: gatohark loadout loader finished.
+61.031 Script [Info]: PrimeVaultTrader.lua: PrimeVaultTrader: no deco found!
+61.031 Script [Info]: Background.lua: Background: world state refreshed from db
+61.049 Script [Info]: Background.lua: Update the Profile Variable
+61.049 Script [Info]: Background.lua: Value was 0, reset it to 0
+61.068 Script [Info]: CrewShipVaccumHelper.lua: CrewshipVaccumHelper : NULL CREWSHIP
+61.494 Script [Info]: ChatRedux.lua: ChatRedux::AddTab: Adding tab with channel name: C61e40f3649763b71ef090c50 to index 1
+61.494 Script [Info]: ChatRedux.lua: Chat: Filters for C61e40f3649763b71ef090c50:
+61.501 Script [Info]: ChatRedux.lua: ChatRedux::AddTab: Adding tab with channel name: A635441e12ad07a809400ece2 to index 2
+61.513 Script [Info]: ChatRedux.lua: ChatRedux::RemoveTab: Removing tab with name D, pSkipRedraw: nil
+61.514 Script [Info]: ChatRedux.lua: ChatRedux::AddTab: Adding tab with channel name: R_EN_NA to index 3
+61.521 Script [Info]: ChatRedux.lua: ChatRedux::AddTab: Adding tab with channel name: T_EN_NA_XS to index 4
+61.527 Script [Info]: ChatRedux.lua: ChatRedux::AddTab: Adding tab with channel name: Q_EN_NA to index 3
+61.674 Script [Info]: Background.lua: Login: Setup 1 Done
+61.674 Script [Info]: Background.lua: Login: Setup 2 Done
+OnUploadChallengeProgressResults: mRecentSeasonChallengeCompletions=0, mSavingRecentSeasonChallengeCompletions=0
+62.267 Game [Info]: Saving profile took 21.2ms
+62.267 Script [Info]: RadialSolarMapLite.lua: Queuing new transmission: DNewQuestLotusTransmission
+62.270 Script [Info]: RadialSolarMapLite.lua: Duviri: rolled mood Anger mood
+62.965 Script [Info]: Transmission.lua: Updated pulled nextQueued: /Lotus/Sounds/Dialog/PlayerShip/NewQuest/DNewQuestLotusTransmission
+64.530 Game [Info]: BuildLoadOut took 13.1ms
+72.251 Script [Info]: MapRedux.lua: Duviri: rolled mood Anger mood
+72.251 Script [Info]: MapRedux.lua: RollDuviriOffers - Using cached duviri offers
+72.251 Script [Info]: MapRedux.lua: RollDuviriOffers - Duviri Seed: 10904012856493222859
+72.256 Script [Info]: MapRedux.lua: Generated weapons:
+72.256 Script [Info]: MapRedux.lua: 1> 1> /Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GrnFlameSpear
+72.256 Script [Info]: MapRedux.lua: 2> 0> /Lotus/Weapons/Tenno/Grimoire/TnGrimoire
+72.256 Script [Info]: MapRedux.lua: 3> 5> /Lotus/Weapons/Tenno/Melee/Swords/UmbraKatana/UmbraKatana
+72.256 Script [Info]: MapRedux.lua: 4> 5> /Lotus/Weapons/Tenno/Melee/LongSword/EtherSword
+72.256 Script [Info]: MapRedux.lua: 5> 1> /Lotus/Weapons/Tenno/LongGuns/PaxDuviricusShotgun/PaxDuviricusShotgun
+72.256 Script [Info]: MapRedux.lua: 6> 0> /Lotus/Weapons/Tenno/ThrowingWeapons/TnChoirframeKunai/TnChoirframeKunai
+72.256 Script [Info]: MapRedux.lua: 7> 5> /Lotus/Weapons/Tenno/Melee/Claws/TennoClaws
+72.256 Script [Info]: MapRedux.lua: 8> 0> /Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun
+72.256 Script [Info]: MapRedux.lua: Generating Cave Selections took: 4.440700054168701ms
+72.256 Script [Info]: MapRedux.lua: DBG: HudVis 1
+72.258 Script [Info]: MapRedux.lua: StarChartProgress: 245 / 247 missions completed, 111 / 247 steel path completed, 2 missing node(s)
+72.258 Script [Info]: MapRedux.lua: SolNode450, SolNode717, 
+72.471 Script [Info]: ThemedSquadOverlay.lua: OnMasteryIconReady1(Loaded: /Lotus/Interface/Icons/MasteryRanks/NewMasteryRanks/Rank19to21_d.png)
+72.508 Script [Info]: ThemedSquadOverlay.lua: OnMasteryMaterialReady1(Loaded: /Lotus/Interface/Icons/MasteryRanks/NewMasteryRanks/Rank19to21)
+72.848 Script [Info]: MapRedux.lua: Hosting lobby from MapRedux.lua (InitializeMore)
+72.848 Script [Info]: ThemedSquadOverlay.lua: _Host lobby. mForceExitLeavingSquad=false
+72.862 Script [Info]: Dialog.lua: Dialog::CreateOkCancel(description=/Lotus/Language/Menu/Session_Creating, leftItem=nil, rightItem=nil)
+72.862 Script [Info]: ThemedSquadOverlay.lua: HostSquadSession (HostLobby). Matching service state=0
+72.865 Script [Info]: WorldStateWindow.lua: false	false
+72.865 Script [Info]: WorldStateWindow.lua: false	false
+72.865 Script [Info]: WorldStateWindow.lua: false	false
+72.866 Script [Info]: WorldStateWindow.lua: false	false
+72.866 Script [Info]: WorldStateWindow.lua: false	false
+72.866 Script [Info]: WorldStateWindow.lua: false	false
+72.866 Script [Info]: WorldStateWindow.lua: false	false
+72.866 Script [Info]: WorldStateWindow.lua: false	false
+72.875 Script [Info]: ResourceDrone.lua: Using cached active resource drone data
+73.197 Game [Info]: LotusAttractModeGameRules::Update - SendLobbyLoadout
+73.230 Game [Info]: gatohark loadout loader finished.
+73.231 Script [Info]: ChatRedux.lua: CHATREDUX - SessionId does not match cached id;
+73.231 Script [Info]: ChatRedux.lua: CHATREDUX - No cached session id.
+73.231 Script [Info]: ChatRedux.lua: CHATREDUX - SessionID: 66a7b9ec469c00988300a938
+73.231 Script [Info]: ChatRedux.lua: CHATREDUX - SessionID2: 66a7b9ec469c00988300a938 - 66a7b9ec469c00988300a938
+73.232 Script [Info]: ChatRedux.lua: ChatRedux::AddTab: Adding tab with channel name: S66a7b9ec469c00988300a938 to index 1
+73.233 Script [Info]: ChatRedux.lua: Chat: Filters for S66a7b9ec469c00988300a938:
+73.415 Script [Info]: MapRedux.lua: InitializeVoidTrader
+73.415 Script [Info]: MapRedux.lua: Time: 	940435.0625
+73.415 Script [Info]: MapRedux.lua: Location: 	MercuryHUB
+73.415 Script [Info]: MapRedux.lua: Visible: 	false
+74.022 Snd [Error]: Buffer underrun streaming first packet for /Lotus/Sounds/UI/NewUI/StarchartRedux/UIStarchartZoomEnterRedux.wav (577ms s, 0 active streams)
+74.090 Script [Info]: LisetCustomizations.lua: Loading ship and skin took 0.6634964346885681 seconds
+76.377 Script [Info]: MapRedux.lua: MapRedux::NodeRollOver SolNode231 - HALAKO PERIMETER
+76.505 Script [Info]: MapRedux.lua: MapRedux::NodeRollOver SolNode231 - HALAKO PERIMETER
+78.479 Script [Info]: MapRedux.lua: Confirm sector SolNode231
+78.480 Script [Info]: ThemedSquadOverlay.lua: OnSquadMissionSelected - force=false
+78.480 Script [Info]: ThemedSquadOverlay.lua: GetRegionSectorForNode SolNode231
+78.480 Script [Info]: ThemedSquadOverlay.lua: Found sector mission
+78.480 Script [Info]: ThemedSquadOverlay.lua: Unique name: 
+78.480 Script [Info]: ThemedSquadOverlay.lua: Sector: SolNode231
+78.480 Script [Info]: ThemedSquadOverlay.lua: Pending mission: SolNode231
+78.480 Script [Info]: ThemedSquadOverlay.lua: Using sector data
+78.480 Script [Info]: ThemedSquadOverlay.lua: Cached mission name=Halako Perimeter (Zariman) (SolNode231)
+78.480 Script [Info]: ThemedSquadOverlay.lua: ShowMissionVote Halako Perimeter (Zariman) - Level (50-55) (SolNode231) -1
+78.480 Script [Info]: ThemedSquadOverlay.lua: OnSquadCountdown: 5
+78.480 Script [Info]: ThemedSquadOverlay.lua: In setting place, region id is: 1
+78.480 Script [Info]: ThemedSquadOverlay.lua: Host changed to gameModeId=22231 (SolNode231), Elo=0
+78.481 Script [Info]: ThemedSquadOverlay.lua: Is Host - showing play now. Countdown time=5.900000095367432
+78.481 Script [Info]: ThemedSquadOverlay.lua: OnSquadCountdown: 5
+78.488 Script [Info]: ThemedSquadOverlay.lua: OnSquadCountdown: 5
+78.754 Script [Info]: ThemedSquadOverlay.lua: SquadOverlay:OnUpdateSessionSettings - result=true
+79.376 Script [Info]: ThemedSquadOverlay.lua: OnSquadCountdown: 4
+79.773 Script [Info]: ThemedSquadOverlay.lua: Cancel pressed, clearing mission
+79.773 Script [Info]: ThemedSquadOverlay.lua: OnClearVote()
+79.773 Script [Info]: ThemedSquadOverlay.lua: OnSquadVote: 601c48aa71309d621b03fc1c, 0
+79.773 Script [Info]: ThemedSquadOverlay.lua: ClearVoting(nil, nil, nil)
+79.773 Script [Info]: ThemedSquadOverlay.lua: Clear public game
+79.773 Script [Info]: ThemedSquadOverlay.lua: In setting place, region id is: 1
+79.773 Script [Info]: ThemedSquadOverlay.lua: Host changed to gameModeId=0 (nil), Elo=0
+79.774 Script [Info]: ThemedSquadOverlay.lua: ResetSquadMission
+79.774 Script [Info]: ThemedSquadOverlay.lua: OnSquadMissionSelected - force=false
+79.774 Script [Info]: ThemedSquadOverlay.lua: ClearVoting(nil, nil, nil)
+79.774 Script [Info]: ThemedSquadOverlay.lua: ResetSquadMission
+79.774 Script [Info]: ThemedSquadOverlay.lua: OnSquadMissionSelected - force=false
+80.061 Script [Info]: ThemedSquadOverlay.lua: SquadOverlay:OnUpdateSessionSettings - result=true
+80.421 Script [Info]: MapRedux.lua: MapRedux::NodeRollOver SolNode232 - TUVUL COMMONS
+80.618 Script [Info]: MapRedux.lua: Confirm sector SolNode232
+80.618 Script [Info]: ThemedSquadOverlay.lua: OnSquadMissionSelected - force=false
+80.619 Script [Info]: ThemedSquadOverlay.lua: GetRegionSectorForNode SolNode232
+80.619 Script [Info]: ThemedSquadOverlay.lua: Found sector mission
+80.619 Script [Info]: ThemedSquadOverlay.lua: Unique name: 
+80.619 Script [Info]: ThemedSquadOverlay.lua: Sector: SolNode232
+80.619 Script [Info]: ThemedSquadOverlay.lua: Pending mission: SolNode232
+80.619 Script [Info]: ThemedSquadOverlay.lua: Using sector data
+80.619 Script [Info]: ThemedSquadOverlay.lua: Cached mission name=Tuvul Commons (Zariman) (SolNode232)
+80.619 Script [Info]: ThemedSquadOverlay.lua: ShowMissionVote Tuvul Commons (Zariman) - Level (50-55) (SolNode232) -1
+80.619 Script [Info]: ThemedSquadOverlay.lua: OnSquadCountdown: 5
+80.619 Script [Info]: ThemedSquadOverlay.lua: In setting place, region id is: 1
+80.619 Script [Info]: ThemedSquadOverlay.lua: Host changed to gameModeId=22232 (SolNode232), Elo=0
+80.619 Script [Info]: ThemedSquadOverlay.lua: Is Host - showing play now. Countdown time=5.900000095367432
+80.619 Script [Info]: ThemedSquadOverlay.lua: OnSquadCountdown: 5
+80.621 Script [Info]: ThemedSquadOverlay.lua: OnSquadCountdown: 5
+80.896 Script [Info]: ThemedSquadOverlay.lua: SquadOverlay:OnUpdateSessionSettings - result=true
+80.996 Script [Info]: MapRedux.lua: MapRedux::NodeRollOver SolNode232 - TUVUL COMMONS
+81.517 Script [Info]: ThemedSquadOverlay.lua: OnSquadCountdown: 4
+81.875 Script [Info]: MapRedux.lua: MapRedux::NodeRollOver SolNode232 - TUVUL COMMONS
+81.954 Script [Info]: ChatRedux.lua: Chat: Filters for C61e40f3649763b71ef090c50:
+82.518 Script [Info]: ThemedSquadOverlay.lua: OnSquadCountdown: 3
+83.518 Script [Info]: ThemedSquadOverlay.lua: OnSquadCountdown: 2
+84.518 Script [Info]: ThemedSquadOverlay.lua: OnSquadCountdown: 1
+85.517 Script [Info]: ThemedSquadOverlay.lua: Mission name: Tuvul Commons (Zariman)
+85.517 Script [Info]: ThemedSquadOverlay.lua: Host loading {"difficulty":1,"name":"SolNode232"} with MissionInfo: 
+info={
+    missionType=MT_VOID_CASCADE
+    faction=FC_CORPUS
+    difficulty=1
+    missionReward={
+        randomizedItems=/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidCascadeRewards
+    }
+    location=SolNode232
+    levelOverride=/Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival
+    enemySpec=/Lotus/Types/Game/EnemySpecs/Zariman/CorpusZarimanSurvival
+    minEnemyLevel=50
+    maxEnemyLevel=55
+    minSpaceEnemyLevel=50
+    maxSpaceEnemyLevel=55
+    questReq=/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain
+    hubLevelTag=ZarimanHub
+}
+
+85.518 Script [Info]: ThemedSquadOverlay.lua: Lobby::Host_StartMatch: launching level for SolNode232 (/Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival)
+85.518 Game [Info]: FrameworkCmd::OpenLevel - /Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival
+85.706 Game [Info]: ServerFramework:OpenLevel - /Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival/LDBi4UAWVg0NCBjjmB70EwRDFUYVYQAhAEAABA.lp
+85.712 Script [Info]: ThemedMainMenu.lua: *** Main menu -- shutdown ***
+85.712 Script [Info]: MapRedux.lua: DBG: HudVis 0
+85.790 Game [Info]: LotusAttractModeGameRules::MasterDestroy()
+85.792 Game [Info]: ClientImpl::PlayersChanged. Player=gatohark, change=UNREGISTERED
+85.806 Game [Info]: Server::LoadClient: Context objects:
+85.806 Game [Info]: /Lotus/Types/Friendly/Pets/CatbrowPetAvatar
+85.807 Game [Info]: /Lotus/Powersuits/Operator/OperatorSuitMale
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Operator/Heads/MaleHeadK
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Operator/Bodies/MaleBody
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingG
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Operator/Hoods/HoodArabic
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitArabic
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Operator/Sleeves/SleevesChameleon
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Operator/Leggings/LeggingsArabic
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Operator/Skirts/SkirtArabic
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Operator/Heads/MaleHeadA
+85.807 Game [Info]: /Lotus/Upgrades/Focus/Attack/AttackFocusAbility
+85.807 Game [Info]: /Lotus/Types/Restoratives/SyndicateTeamEnergyTotem
+85.807 Game [Info]: /Lotus/Types/Restoratives/OpenArchwingSummon
+85.807 Game [Info]: /Lotus/Types/Restoratives/LoadoutTechSummon
+85.807 Game [Info]: /Lotus/Types/Restoratives/Consumable/CrewmateBall
+85.807 Game [Info]: /Lotus/Types/Restoratives/Cipher
+85.807 Game [Info]: /Lotus/Types/Restoratives/HeavyWeaponSummon
+85.807 Game [Info]: /Lotus/Types/Restoratives/Consumable/LibraryScanner
+85.807 Game [Info]: /Lotus/Types/Restoratives/Consumable/InfestedFishingSpearA
+85.807 Game [Info]: /Lotus/Types/Restoratives/Consumable/Scanner
+85.807 Game [Info]: /Lotus/Types/Restoratives/Consumable/MiningLaserC
+85.807 Game [Info]: /Lotus/Powersuits/Pacifist/BaruukPrime
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Pacifist/BaruukPrimeHelmet
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Armor/NWIIIBossArmor/NWIIIBossAArmor
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Armor/SentEvoArmor/SentEvoArmor3L
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Tengu/TenguDeluxeNobleAnims
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Armor/WarframeDefaults/EmptyCustomization
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Pacifist/BaruukPrimeSkin
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Armor/SetThreeWinged/VTSetThreeChestArmor
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Pacifist/PacifistEffectsSetDefault
+85.807 Game [Info]: /Lotus/Upgrades/Skins/Effects/WerewolfEphemera
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Sets/Augur/WarframeAugurSecretsMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarAbilityDurationMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Warframe/DualStat/CorruptedRangePowerWarframe
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Warframe/DualStat/CorruptedPowerEfficiencyWarframe
+85.807 Game [Info]: /Lotus/Powersuits/Pacifist/PacifistDodgeAugmentCard
+85.807 Game [Info]: /Lotus/Powersuits/Pacifist/PacifistFistAugmentCard
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Warframe/Expert/AvatarPowerMaxModExpert
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Sets/Augur/WarframeAugurReachMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Aura/PlayerMeleeStartingComboAuraMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Warframe/Expert/AvatarKnockdownResistanceModExpert
+85.807 Game [Info]: /Lotus/Upgrades/CosmeticEnhancers/Offensive/PowerStrengthOnKill
+85.807 Game [Info]: /Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneMeleeDamageOnCrit
+85.807 Game [Info]: /Lotus/Weapons/Infested/Pistols/InfVomitGun/InfVomitGunWep
+85.807 Game [Info]: /Lotus/Upgrades/Skins/HolsterCustomizations/PistolHipsDual
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Pistol/WeaponElectricityDamageMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Randomized/LotusPistolRandomModRare
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Pistol/Expert/WeaponFireDamageModExpert
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Pistol/Expert/WeaponCritChanceModBeginnerExpert
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Pistol/DualStat/GrinderMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Pistol/WeaponDamageAmountMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Pistol/Expert/PrimedWeaponCritDamageMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Pistol/WeaponFireIterationsSPMod
+85.807 Game [Info]: /Lotus/Upgrades/CosmeticEnhancers/Utility/ExtraProcOnProc
+85.807 Game [Info]: /Lotus/Weapons/ClanTech/Bio/BioWeapon
+85.807 Game [Info]: /Lotus/Upgrades/Skins/HolsterCustomizations/RifleUpperBack
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Rifle/DualStat/CorruptedCritRateFireRateRifle
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Rifle/WeaponDamageAmountMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Sets/Vigilante/PrimaryVigilanteFervorMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Rifle/WeaponCritDamageMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Rifle/WeaponToxinDamageMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Rifle/WeaponElectricityDamageMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Rifle/WeaponStatusChanceSPMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Rifle/WeaponFireIterationsSPMod
+85.807 Game [Info]: /Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMaceWeapon
+85.807 Game [Info]: /Lotus/Upgrades/Skins/HolsterCustomizations/HeavyUpperBack
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Sets/Sacrifice/MeleeSacrificeModB
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Melee/DualStat/CorruptedHeavyDamageChargeSpeedMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Melee/Expert/WeaponFireRateModExpert
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeDamageModExpert
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Melee/Event/ComboCritChanceMod
+85.807 Game [Info]: /Lotus/Weapons/Tenno/Melee/MeleeTrees/HammerCmbTwoMeleeTree
+85.807 Game [Info]: /Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun
+85.807 Game [Info]: /Lotus/Upgrades/Skins/HolsterCustomizations/Archwing/RifleDefault
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleFireRateMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleCritChanceDamageAimingMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingWeaponElectricityDamageMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleCritChanceMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleCritDamageMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingWeaponFireDamageMod
+85.807 Game [Info]: /Lotus/Weapons/Sentients/OperatorAmplifiers/OperatorAmpWeapon
+85.807 Game [Info]: /Lotus/Upgrades/Skins/HolsterCustomizations/OperatorAmp
+85.807 Game [Info]: /Lotus/Upgrades/CosmeticEnhancers/Zariman/AmpOnEnergyDepletedCritChance
+85.807 Game [Info]: /Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnOperatorAbilityIncreaseDamage
+85.807 Game [Info]: /Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartC
+85.807 Game [Info]: /Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Grip/CorpAmpSet1GripPartC
+85.807 Game [Info]: /Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartA
+85.807 Game [Info]: /Lotus/Types/Game/CatbrowPet/CheshireCatbrowPetPowerSuit
+85.807 Game [Info]: /Lotus/Types/Game/CatbrowPet/BodyTypes/CatbrowPetRegularFemaleBodyCustomization
+85.807 Game [Info]: /Lotus/Types/Game/CatbrowPet/Patterns/CatbrowPetPatternA
+85.807 Game [Info]: /Lotus/Types/Game/CatbrowPet/Heads/CatbrowHeadD
+85.807 Game [Info]: /Lotus/Types/Game/CatbrowPet/Tails/CatbrowTailA
+85.807 Game [Info]: /Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Sentinel/SentinelLootRadarEnemyRadarMod
+85.807 Game [Info]: /Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowLuckPrecept
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowLinkArmourMaxMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowLinkShieldMaxMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Sentinel/Events/Index/CompanionMedipetKitMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowLinkHealthMaxMod
+85.807 Game [Info]: /Lotus/Types/Friendly/Pets/CatbrowPetAgent
+85.807 Game [Info]: /Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon
+85.807 Game [Info]: /Lotus/Upgrades/Skins/HolsterCustomizations/DataKnife
+85.807 Game [Info]: /Lotus/Upgrades/Mods/DataSpike/Cipher/OnHackSprintSpeedMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/DataSpike/Assassin/OnExecutionBlindMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Warframe/AvatarTimeLimitIncreaseMod
+85.807 Game [Info]: /Lotus/Upgrades/Mods/Immortal/ImmortalSevenMod
+85.807 Game [Info]: /Lotus/Types/Items/Ships/DefaultShip
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipCrewmanRegularGrenadeAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipCrewmanEliteRegularGrenadeAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipMoaDeraAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipOspreyMineAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipOspreyShieldAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/Zariman/CrpInterrupterAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipOspreyOxiumAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipMoaDiscAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipCrewmanSniperAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipCrewmanNullifierAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipMachinistHammerAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipMoaDualCannonAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipCrewmanTechAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipMoaGlaxionAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipCombaTeslaAgent
+85.807 Game [Info]: /Lotus/Types/Enemies/AdvancedSpawners/BursaSpawner
+85.807 Game [Info]: /Lotus/Types/Gameplay/Zariman/Resources/ZarimanDogTagCommonPickup
+85.807 Game [Info]: /Lotus/Types/Gameplay/Zariman/Resources/ZarimanDogTagUncommonPickup
+85.807 Game [Info]: /Lotus/Types/Gameplay/Zariman/Resources/ZarimanDogTagRarePickup
+85.807 Game [Info]: /Lotus/Types/DropTables/NormalEximusDropTable
+85.807 Game [Info]: /Lotus/StoreItems/Types/Items/MiscItems/Ferrite
+85.807 Game [Info]: /Lotus/Types/Items/MiscItems/FerritePickup
+85.807 Game [Info]: /Lotus/Types/PickUps/ResourceContainers/FerriteContainer
+85.807 Game [Info]: /Lotus/StoreItems/Types/Items/MiscItems/AlloyPlate
+85.807 Game [Info]: /Lotus/Types/Items/MiscItems/AlloyPlatePickup
+85.807 Game [Info]: /Lotus/Types/PickUps/ResourceContainers/AlloyPlateContainer
+85.807 Game [Info]: /Lotus/StoreItems/Types/Gameplay/Zariman/Resources/ZarimanMiscItemA
+85.807 Game [Info]: /Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemAPickup
+85.807 Game [Info]: /Lotus/StoreItems/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB
+85.807 Game [Info]: /Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemBPickup
+85.807 Game [Info]: /Lotus/Types/GameRules/LotusGameRules
+85.807 Game [Info]: Level=/Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival/LDBi4UAWVg0NCBjjmB70EwRDFUYVYQAhAEAABA.lp
+85.807 Game [Info]: SetCurrentServerLayerIndex(4294967295)
+85.887 Script [Info]: ScriptMgr::ResetGlobals()
+86.693 Script [Info]: Progress.lua: Initialize
+86.693 Script [Info]: Progress.lua: Loading progress level /Lotus/Levels/Episodes/LisetInFlightAtmosphere.level
+86.954 Script [Info]: Progress.lua: ShowTip()
+92.062 Game [Info]: Region index=1, layer=255
+92.062 Game [Info]: SynchronizingState::Enter
+92.063 Script [Info]: LotusGameRules.lua: Adding static medal valuation...
+92.063 Script [Info]: LotusGameRules.lua: Adding dynamic medal calculators...
+92.067 Game [Info]: Level transform: Matrix
+92.067 Game [Info]: (
+92.067 Game [Info]:          1         0         0         0
+92.067 Game [Info]:          0         1         0         0
+92.067 Game [Info]:          0         0         1         0
+92.067 Game [Info]:        -403.8147e-06     -0.25         1
+92.067 Game [Info]: )
+92.067 Game [Info]: LevelLoader, added batch /Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival/LDBi4UAWVg0NCBjjmB70EwRDFUYVYQAhAEAABA.lp
+92.067 Game [Info]: LevelLoader, InitBatch
+92.068 Game [Info]: Level loader: LS_COMPLETE -> LS_PREPARE
+92.068 Game [Info]: Level loader: LS_PREPARE -> LS_CREATE_EX
+92.091 Script [Info]: ChatRedux.lua: ChatRedux::RemoveTab: Removing tab with name R_EN_NA, pSkipRedraw: nil
+92.091 Script [Info]: ChatRedux.lua: ChatRedux::RemoveTab: Removing tab with name T_EN_NA_XS, pSkipRedraw: nil
+92.091 Script [Info]: ChatRedux.lua: ChatRedux::RemoveTab: Removing tab with name Q_EN_NA, pSkipRedraw: nil
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/HubMissionsElevator/Scope, 150 objects, 0 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/HubElevatorSpawn/Scope, 474 objects, 15 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/IntIndoctrinationHall/Scope, 1406 objects, 184 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConNSJunction04Overgrown/Scope, 910 objects, 153 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/DeadEndEWSurvival/Scope, 285 objects, 19 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConNSStraightShort03/Scope, 434 objects, 92 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/IntShuttleBay/Scope, 1971 objects, 275 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConEWStraightShort01/Scope, 482 objects, 43 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/IntPark/Scope, 1769 objects, 249 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConNSJunction06MonumentHalls/Scope, 1073 objects, 235 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/ConEWJunctionShort01/Scope, 723 objects, 75 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapEW02/Scope, 1052 objects, 52 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapNS02/Scope, 753 objects, 42 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapEW01/Scope, 172 objects, 26 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapNS01/Scope, 81 objects, 14 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/CapEW03/Scope, 274 objects, 26 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/SafeCapNS/Scope, 4 objects, 0 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/Prefabs/ZarimanDoorEWFitting/Scope, 70 objects, 0 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Zariman/Prefabs/ZarimanDoorNSFitting/Scope, 12 objects, 0 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Backdrops/ZarimanRegion/Scope, 45 objects, 0 server-only objects
+92.344 Game [Info]: Added streaming layer /Lotus/Levels/Backdrops/ZarimanIntBackdrop/Scope, 46 objects, 0 server-only objects
+92.357 Game [Info]: 255 - 11305 autonomous, 1500 server-only, ready: 0, incomplete: 0
+92.393 Script [Info]: EidolonMP.lua: EIDOLONMP: TransitionZoneInitialized
+92.393 Script [Info]: EidolonMP.lua: EIDOLONMP: Initializing AvatarsReadyToExtract.
+96.476 Game [Info]: Level loader: LS_CREATE_EX -> LS_POST_CREATE
+96.482 Game [Info]: SetCurrentServerLayerIndex(4294967295)
+96.484 Game [Info]: Level loader: LS_POST_CREATE -> LS_COMPLETE
+96.485 Game [Info]: StartClientReplication(0)
+96.485 Game [Info]: ClientImpl::PlayersChanged. Player=, change=REGISTERED
+96.485 Game [Info]: CreatePlayerForClient. id=0, user name=gatohark
+96.580 Game [Info]: ======== Removing gatohark from restricted pickup list
+96.580 Game [Info]: ======== Removing gatohark from restricted core pickup list
+96.639 Game [Info]: Prev game rules was FrontEnd 0
+96.661 Script [Info]: HudRedux.lua: HudRedux:RegisterCallbacks complete
+96.661 Game [Info]: Old player not found!
+96.722 Game [Info]: ====== Completed Initializing Nav and Tac
+97.558 Game [Info]: gatohark loadout loader finished.
+97.624 Script [Info]: LisetCustomizations.lua: Loading ship and skin took 0.9718969464302063 seconds
+97.658 Script [Info]: ProceduralLevel.lua: Spawn zones:	2
+97.658 Script [Info]: ProceduralLevel.lua: Got Mission:  difficulty: 1
+97.659 Script [Info]: MelicaCaches.lua: spawning melica keys
+97.660 Script [Info]: ZarimanHandleVoidAngelSpawns.lua: ANGL Setting up Opt-In Void Angels
+97.669 Script [Info]: ProceduralLevel.lua: No LabConquest level
+97.669 Game [Info]: FinalizeHostMigration, have data for 0 agent(s)
+97.670 Script [Info]: LotusGameRules.lua: AmmoDropTableAtten: Adding Upgrade of 0.22500000894069672 to TennoAvatar8
+97.676 Game [Info]: gatohark - new avatar: TennoAvatar8
+97.686 Game [Info]: BuildLoadOut took 10.8ms
+97.687 Script [Info]: BursaSpawnScript.lua: Bursa spawner unhandled mission type detected
+
+97.700 Script [Info]: HudRedux.lua: DBG: HudVis 1
+97.701 Script [Info]: HudRedux.lua: HUD REDUX: Pushing background movie from Update
+97.702 Script [Info]: Background.lua: UISTYLE: Style changed callback registered
+97.707 Script [Info]: Background.lua: EliteAlert: generated boosts for gatohark: suitType=/Lotus/Powersuits/Jade/Jade wepTypes=/Lotus/Weapons/Archon/Melee/Whip/ArchonWhipPlayerWep, /Lotus/Weapons/Tenno/Akimbo/AkimboPistol, /Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol, 
+97.725 Script [Info]: Background.lua: EliteAlert: generated boosts for gatohark: suitType=/Lotus/Powersuits/Gyre/Gyre wepTypes=/Lotus/Weapons/Cephalon/Melee/Hammer/CephHammerWeapon, /Lotus/Weapons/Corpus/LongGuns/CrpFreezeRay/CrpFreezeRayRifle, /Lotus/Weapons/Tenno/ThrowingWeapons/GlassKunai/GlassKunaiWeapon, 
+97.725 Script [Info]: Background.lua: EliteAlertMission at ClanNode8 (Mars - Kadesh)
+97.728 Script [Info]: Background.lua: Background.lua: Initialize
+97.733 Game [Info]: 1 players joined, all avatars spawned starting game
+97.734 Game [Info]: OnStateStarted, mission type=MT_VOID_CASCADE
+97.734 Game [Info]: GameRulesImpl::StartRound()
+97.734 Script [Info]: Background.lua: initializing region challenges
+97.735 Script [Info]: Background.lua: regions: 23
+97.735 Script [Info]: NemesisMission.lua: NemesisGenerator::InitMission
+97.735 Script [Info]: NemesisMission.lua: waiting for squad overlay initialization...
+97.742 Script [Info]: ZarimanHandleVoidAngelSpawns.lua: ANGL Angel State is 0
+97.742 Script [Info]: ZarimanHandleVoidAngelSpawns.lua: ANGL Searching for Valid Spawn Points...
+97.742 Script [Info]: ZarimanHandleVoidAngelSpawns.lua: ANGL Found 3 Valid Spawn Points
+97.742 Script [Info]: ZarimanHandleVoidAngelSpawns.lua: ANGL Spawning Angel Decos
+97.742 Script [Info]: ZarimanHandleVoidAngelSpawns.lua: ANGL WaitForAutoActivate
+97.798 Script [Info]: Progress.lua: Starting Vignette close animation...
+97.799 Script [Info]: Background.lua: UISTYLE: Style changed callback called
+97.799 Script [Info]: Background.lua: UISTYLE: _G.CurrStyle invalid, updating theme
+97.799 Script [Info]: Background.lua: UISTYLE: overlayMgr valid
+97.799 Script [Info]: Background.lua: UISTYLE: style valid, _G.CurrStyle assigned
+97.807 Script [Info]: ThemedSquadOverlay.lua: SquadOverlay -- Initialize
+97.810 Script [Info]: ThemedSquadOverlay.lua: Create(SquadInfo)::Initialize()
+97.813 Script [Info]: ThemedSquadOverlay.lua: Current UI mode: 4
+97.813 Script [Info]: ThemedSquadOverlay.lua: OnLoginComplete - squad overlay
+97.813 Script [Info]: ThemedSquadOverlay.lua: UISTYLE: SquadOverlay::InitializeColors()
+97.813 Script [Info]: Background.lua: CheckForAvailableRankUp()
+97.816 Game [Info]: TennoAvatar8 - changing anim controller to PacifistAnimController
+97.826 Game [Warning]: Player camera not enabled. Free cam=0, this cinematic: /Layer255/Layer35/Prefab0/Cinematic1, player cam disabled: 0
+97.826 Game [Warning]: Playing cinematic=/Layer255/Layer35/Prefab0/Cinematic1
+97.831 Anim [Info]: Using /Layer255/Layer35/Prefab0/PlayerLisetSmall0 as LisetSmall
+97.831 Anim [Info]: Using /Layer255/Layer35/Prefab0/SquadLisetSmall1 as LisetSmallB
+97.831 Anim [Info]: Using /Layer255/Layer35/Prefab0/SquadLisetSmall2 as LisetSmallC
+97.831 Anim [Info]: Using /Layer255/Layer35/Prefab0/SquadLisetSmall3 as LisetSmallD
+97.831 Anim [Info]: Using /Layer255/Layer35/Prefab0/SquadLisetSmall4 as LisetSmallE
+97.831 Anim [Info]: Using /Layer255/Layer35/Prefab0/SquadLisetSmall5 as LisetSmallF
+97.831 Anim [Info]: Using /Layer255/Layer35/Prefab0/SquadLisetSmall6 as LisetSmallG
+97.831 Anim [Info]: Using /Layer255/Layer35/Prefab0/SquadLisetSmall7 as LisetSmallH
+97.839 Script [Info]: ZarChallengeMgr.lua: No Active challenge - exiting
+97.862 Script [Info]: MissionIntro.lua: MissionName: TUVUL COMMONS
+97.866 Script [Info]: NemesisMission.lua: gathering squad members
+97.866 Script [Info]: NemesisMission.lua: nemesis: adding squad member gatohark
+98.268 Script [Info]: Dialog.lua: Dialog::CreateOkCancel(description=SKIP CINEMATIC?, leftItem=/Menu/Confirm_Item_Ok, rightItem=/Menu/Confirm_Item_Cancel)
+98.534 Script [Info]: EidolonMP.lua: EIDOLONMP: Migrated while streaming (2) - nil
+98.534 Script [Info]: EidolonMP.lua: EIDOLONMP: Avatar needs to leave the zone: TennoAvatar8 = false
+98.628 Script [Info]: Dialog.lua: SendResult_MENU_SELECT()
+98.628 Script [Info]: Dialog.lua: Dialog::SendResult(4)
+98.768 Script [Info]: PrepareDemoCinematics.lua: Host name gatohark
+98.768 Script [Info]: PrepareDemoCinematics.lua: Num avatars = 1
+98.775 Anim [Info]: Using /Layer255/Layer1/Layer5/Prefab0/Decoration0 as GrateA
+98.775 Anim [Info]: Using /Layer255/Layer1/Layer5/Prefab0/Decoration1 as GrateB
+98.775 Anim [Info]: Using TennoAvatar8 as Tenno
+98.790 Script [Info]: EidolonMP.lua: EIDOLONMP: Created dynamic town trigger.
+98.790 Script [Info]: ZarimanSurvivalMission.lua: Starting script on object /Layer255/Layer4/Layer8/ZarimanSurvivalMissionScriptTrigger0
+98.790 Script [Info]: ZarimanSurvivalMission.lua: Zariman Survival (Void Cascade): MasterInit...
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Zariman Survival (Void Cascade): Pillars deployed: 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Zariman Survival (Void Cascade): Current pillars used: 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Zariman Survival (Void Cascade): Current difficulty: 1
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ----------------- Capsule Setup -----------------
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Capsule Info: 
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ID = 1
+98.791 Script [Info]: ZarimanSurvivalMission.lua: STATE = 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-82.5, -0.999991, -31.5)
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Capsule Info: 
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ID = 2
+98.791 Script [Info]: ZarimanSurvivalMission.lua: STATE = 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-121.25, -0.999991, 2.75002)
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Capsule Info: 
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ID = 3
+98.791 Script [Info]: ZarimanSurvivalMission.lua: STATE = 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-131, 8.00001, -46)
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Capsule Info: 
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ID = 4
+98.791 Script [Info]: ZarimanSurvivalMission.lua: STATE = 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(52.75, 7.75001, -203)
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Capsule Info: 
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ID = 5
+98.791 Script [Info]: ZarimanSurvivalMission.lua: STATE = 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-129, -0.999992, -206)
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Capsule Info: 
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ID = 6
+98.791 Script [Info]: ZarimanSurvivalMission.lua: STATE = 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-71.25, 8.00001, -249.25)
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Capsule Info: 
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ID = 7
+98.791 Script [Info]: ZarimanSurvivalMission.lua: STATE = 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(70.5, 14.25, -243.25)
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Capsule Info: 
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ID = 8
+98.791 Script [Info]: ZarimanSurvivalMission.lua: STATE = 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-174.75, 8.00001, -233.25)
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Capsule Info: 
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ID = 9
+98.791 Script [Info]: ZarimanSurvivalMission.lua: STATE = 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-115, 3.50001, -265.25)
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Capsule Info: 
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ID = 10
+98.791 Script [Info]: ZarimanSurvivalMission.lua: STATE = 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(19.75, 13.75, -270)
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Capsule Info: 
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ID = 11
+98.791 Script [Info]: ZarimanSurvivalMission.lua: STATE = 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(123.25, 6.00001, -249.25)
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Capsule Info: 
+98.791 Script [Info]: ZarimanSurvivalMission.lua: ID = 12
+98.791 Script [Info]: ZarimanSurvivalMission.lua: STATE = 0
+98.791 Script [Info]: ZarimanSurvivalMission.lua: SPAWN POS = Vector(-123, 1.50001, -318)
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Log info: capsule entities in the level:
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Created Wraith spawner!
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Zariman Survival (Void Cascade): MasterInit complete
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Zariman Survival (Void Cascade): ReplicaInit...
+98.791 Script [Info]: ZarimanSurvivalMission.lua: Zariman Survival (Void Cascade): ReplicaInit complete
+98.799 Script [Info]: ZarimanSurvivalMission.lua: ModeState = 1
+98.799 Script [Info]: ZarimanSurvivalMission.lua: Zariman Survival (Void Cascade): State Change: MISSION_SETUP
+98.804 Script [Info]: ZarimanSurvivalMission.lua: ModeState = 3
+98.804 Script [Info]: ZarimanSurvivalMission.lua: Zariman Survival (Void Cascade): State Change: ZARIMAN_INTRO
+98.805 Script [Info]: ZarimanSurvivalMission.lua: Spawned capsule with id 1
+98.805 Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Starting corrupt
+98.810 Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Past while for corrupt. Pillar at Vector(-82.5, -0.999991, -31.5)
+98.811 Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Finished setting up the corrupted effects for pillar at Vector(-82.5, -0.999991, -31.5)
+98.811 Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Shock wave effect concluded for corrupted pillar at Vector(-82.5, -0.999991, -31.5)
+98.918 Script [Info]: EidolonMP.lua: EIDOLONMP: Initializing AvatarsReadyToExtract.
+99.063 Game [Info]: GetQueuedTransmission returns: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasIntroCorpus2060Quinn
+99.063 Script [Info]: HudRedux.lua: Queuing new transmission: DZarCasIntroCorpus2060Quinn
+99.064 Script [Info]: HudRedux.lua: Queued a transmission from Hud: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasIntroCorpus2060Quinn
+99.119 Script [Info]: EidolonMP.lua: EIDOLONMP: Migrated while streaming (2) - nil
+99.119 Script [Info]: EidolonMP.lua: EIDOLONMP: Avatar needs to leave the zone: TennoAvatar8 = false
+99.119 Game [Info]: MultiAvatarTrigger: ZarimanMissionToTownTrigger Enable(1)
+99.583 Script [Info]: Progress.lua: ProgressScreenClosed
+99.584 Script [Info]: Transmission.lua: Updated pulled nextQueued: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasIntroCorpus2060Quinn
+99.584 Script [Info]: HudRedux.lua: DBG: HudVis 0
+99.595 Script [Info]: OperatorTransference.lua: Creating OperatorAvatar of type /Lotus/Types/Friendly/Tenno/CombatOperatorAvatar at Vector(-40.2621, -0.788077, -19.7961)
+99.597 Game [Info]: BuildLoadOut took 429us
+99.684 Script [Info]: NemesisMission.lua: nemesis available: false
+99.684 Script [Info]: NemesisMission.lua: nemesis spawn chance: 0
+99.943 Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Enabled void bubble for corrupted pillar at Vector(-82.5, -0.999991, -31.5)
+102.362 Script [Info]: LotusGameRules.lua: AmmoDropTableAtten: Adding Upgrade of 0.22500000894069672 to CombatOperatorAvatar10
+102.375 Game [Info]: gatohark - new avatar: CombatOperatorAvatar10
+102.375 Script [Info]: OperatorTransference.lua: ABLIB: RemoveInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj
+102.811 Script [Info]: EidolonMP.lua: EIDOLONMP: Migrated while streaming (2) - nil
+102.811 Script [Info]: EidolonMP.lua: EIDOLONMP: Avatar needs to leave the zone: CombatOperatorAvatar10 = false
+102.831 Script [Info]: TeleportOutOfVolume.lua: Teleport logic starting on: CombatOperatorAvatar10
+102.903 Game [Info]: GetQueuedTransmission returns: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasFirstPillar2070Quinn
+102.903 Script [Info]: HudRedux.lua: Queuing new transmission: DZarCasFirstPillar2070Quinn
+102.903 Script [Info]: HudRedux.lua: Queued a transmission from Hud: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasFirstPillar2070Quinn
+102.905 Script [Info]: RareSpawnScript.lua: COLLECTOR: failed reqs: early out bailing on spawn setup
+104.423 Script [Info]: TeleportOutOfVolume.lua: Teleport logic starting on: CatbrowPetAvatar9
+105.393 Script [Info]: ZarimanSurvivalMission.lua: Cleansing SurvivalLifeSupportPillarCorruptible
+105.393 Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Starting cleanse
+105.393 Script [Info]: ZarimanSurvivalMission.lua: Randomized spawn radius = 0.6928772330284119
+105.393 Script [Info]: ZarimanSurvivalMission.lua: CAP is 2 out of a start/end = 2 / 3
+105.403 Script [Info]: ZarimanSurvivalMission.lua: Log: Players cleansed all corrupted pillars
+105.403 Script [Info]: ZarimanSurvivalCorruptionBehavior.lua: Wraith started Corrupt Behaviour
+105.403 Script [Info]: ZarimanSurvivalCorruptionBehavior.lua: New wraith: purged out of a pillar!
+105.484 Script [Info]: ZarimanSurvivalMission.lua: ModeState = 4
+105.484 Script [Info]: ZarimanSurvivalMission.lua: Zariman Survival (Void Cascade): State Change: ENDLESS
+105.492 Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Past while for cleanse. Pillar at Vector(-82.5, -0.999991, -31.5)
+105.492 Script [Info]: ZarimanSurvivalWraithSpawner.lua: Cleansed aura set for pillar at Vector(-82.5, -0.999991, -31.5)
+105.922 Game [Info]: GetQueuedTransmission returns: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasStart2080Quinn
+105.922 Script [Info]: HudRedux.lua: Queuing new transmission: DZarCasStart2080Quinn
+105.922 Script [Info]: HudRedux.lua: Queued a transmission from Hud: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasStart2080Quinn
+105.949 Game [Info]: gatohark - new avatar: TennoAvatar8
+106.483 Script [Info]: ZarimanSurvivalMission.lua: Enabling wraith spawn...
+106.483 Script [Info]: ZarimanSurvivalMission.lua: ObjectiveText.lua::ClearPrimaryObjText()
+107.414 Script [Info]: PlayerScript.lua: Idle -> combat
+112.842 Game [Info]: gatohark - new avatar: CombatOperatorAvatar10
+112.842 Script [Info]: OperatorTransference.lua: ABLIB: RemoveInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj
+113.110 Script [Info]: OperatorVoidMode.lua: ABLIB: ApplyInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj, was invis: false
+113.867 Script [Info]: OperatorVoidMode.lua: ABLIB: RemoveInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj
+113.890 Game [Info]: gatohark - new avatar: TennoAvatar8
+114.916 Script [Info]: Transmission.lua: Updated pulled nextQueued: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasFirstPillar2070Quinn
+114.922 Snd [Error]: Looping sound /Lotus/Sounds/Warframes/Pacifist/PacifistDisarmLoop was left dangling
+115.487 Game [Info]: Ending injury GrineerSlashDamageProc
+115.488 Script [Info]: DuviriAvatarReviveForm.lua: targetAvatar /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/Avatars/ShipCrewmanEliteAvatar
+116.455 Game [Info]: gatohark - new avatar: CombatOperatorAvatar10
+116.455 Script [Info]: OperatorTransference.lua: ABLIB: RemoveInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj
+117.642 Script [Info]: RewardFocus.lua: CombatOperatorAvatar10 killed DuviriRagdoll, rewarding 2500 focus XP
+118.114 Game [Info]: gatohark - new avatar: TennoAvatar8
+122.048 Script [Info]: Transmission.lua: Updated pulled nextQueued: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasStart2080Quinn
+125.470 Snd [Error]: Buffer underrun streaming /Lotus/Sounds/Quests/TheNewWar/Ambience/Zariman/Misc/TNWZarimanMemoryEchoesB.wav (0 active streams)
+136.505 Script [Info]: ZarimanSurvivalMission.lua: Spawned capsule with id 3
+136.507 Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Starting corrupt
+136.517 Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Past while for corrupt. Pillar at Vector(-131, 8.00001, -46)
+136.520 Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Finished setting up the corrupted effects for pillar at Vector(-131, 8.00001, -46)
+136.520 Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Shock wave effect concluded for corrupted pillar at Vector(-131, 8.00001, -46)
+136.560 Game [Info]: GetQueuedTransmission returns: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasCorruptDrop2150Quinn
+136.560 Script [Info]: HudRedux.lua: Queuing new transmission: DZarCasCorruptDrop2150Quinn
+136.561 Script [Info]: HudRedux.lua: Queued a transmission from Hud: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasCorruptDrop2150Quinn
+136.576 Script [Info]: Transmission.lua: Updated pulled nextQueued: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasCorruptDrop2150Quinn
+137.581 Script [Info]: ZarimanSurvivalWraithSpawner.lua: HOST: Enabled void bubble for corrupted pillar at Vector(-131, 8.00001, -46)
+149.507 Game [Info]: gatohark - new avatar: CombatOperatorAvatar10
+149.507 Script [Info]: OperatorTransference.lua: ABLIB: RemoveInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj
+149.652 Game [Info]: gatohark - new avatar: TennoAvatar8
+150.369 Game [Info]: Smeeta Kavat was downed by 37 / 36 damage from a level 53 Juno Elite Crewman using a AiSupraRifle
+150.392 Game [Info]: gatohark - new avatar: CombatOperatorAvatar10
+150.392 Script [Info]: OperatorTransference.lua: ABLIB: RemoveInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj
+150.745 Script [Info]: OperatorVoidMode.lua: ABLIB: ApplyInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj, was invis: false
+151.687 Script [Info]: OperatorVoidMode.lua: ABLIB: RemoveInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj
+151.721 Game [Info]: gatohark - new avatar: TennoAvatar8
+157.728 Script [Info]: ConsumablesOverlay.lua: ScopeDebug: Hide from ConsumablesOverlay
+158.349 Script [Info]: ConsumablesOverlay.lua: ScopeDebug: Show from ConsumablesOverlay
+162.056 Game [Info]: Ending injury TennoSlashDamageProc
+166.467 Script [Info]: ZarimanSurvivalWraithSpawner.lua: CAP is 2 out of a start/end = 2 / 3
+166.467 Script [Info]: ZarimanSurvivalWraithSpawner.lua: Wraith spawn: selected CLEANSED capsule as base spawn point
+166.467 Script [Info]: ZarimanSurvivalWraithSpawner.lua: Randomized spawn radius = 87.27449035644531
+166.471 Script [Info]: ZarimanSurvivalWraithSpawner.lua: Spawning melee Wraith from team!
+166.471 Script [Info]: ZarimanSurvivalWraithSpawner.lua: Randomized spawn radius = 1.1963971853256226
+166.471 Script [Info]: ZarimanSurvivalWraithSpawner.lua: CAP is 2 out of a start/end = 2 / 3
+166.471 Script [Info]: ZarimanSurvivalWraithSpawner.lua: Max number of active Wraiths reached! Don't spawn
+166.471 Script [Info]: ZarimanSurvivalWraithSpawner.lua: Melee Wraith is going solo =(
+166.486 Script [Info]: ZarimanSurvivalCorruptionBehavior.lua: Wraith started Corrupt Behaviour
+166.486 Script [Info]: ZarimanSurvivalCorruptionBehavior.lua: New wraith: just spawned
+170.062 Game [Info]: GetQueuedTransmission returns: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasWraithPillar2380Quinn
+170.062 Script [Info]: HudRedux.lua: Queuing new transmission: DZarCasWraithPillar2380Quinn
+170.063 Script [Info]: HudRedux.lua: Queued a transmission from Hud: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasWraithPillar2380Quinn
+170.074 Script [Info]: Transmission.lua: Updated pulled nextQueued: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasWraithPillar2380Quinn
+171.258 Script [Info]: ZarimanSurvivalCorruptionBehavior.lua: Ended channelling
+172.375 Script [Info]: DuviriAvatarReviveForm.lua: targetAvatar /Lotus/Types/Enemies/Corpus/CorpusShipRemastered/Avatars/ShipCrewmanEliteAvatar
+173.249 Game [Info]: gatohark - new avatar: CombatOperatorAvatar10
+173.249 Script [Info]: OperatorTransference.lua: ABLIB: RemoveInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj
+174.583 Script [Info]: RewardFocus.lua: CombatOperatorAvatar10 killed DuviriMeleeAvatar59, rewarding 2500 focus XP
+175.036 Game [Info]: gatohark - new avatar: TennoAvatar8
+195.212 Game [Info]: gatohark - new avatar: CombatOperatorAvatar10
+195.212 Script [Info]: OperatorTransference.lua: ABLIB: RemoveInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj
+195.223 Script [Info]: PlayerScript.lua: Combat -> idle
+195.393 Script [Info]: OperatorVoidMode.lua: ABLIB: ApplyInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj, was invis: false
+196.005 Script [Info]: OperatorVoidMode.lua: ABLIB: RemoveInvis CombatOperatorAvatar10 -- /Lotus/Fx/PowersuitAbilities/Operator/CloakProj
+196.035 Game [Info]: gatohark - new avatar: TennoAvatar8
+199.893 Script [Info]: ZarimanSurvivalMission.lua: Zariman Survival (Void Cascade): Pillars used increased to: 1
+199.968 Game [Info]: GetQueuedTransmission returns: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasDropDestroy2180Quinn
+199.968 Script [Info]: HudRedux.lua: Queuing new transmission: DZarCasDropDestroy2180Quinn
+199.969 Script [Info]: HudRedux.lua: Queued a transmission from Hud: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasDropDestroy2180Quinn
+199.985 Script [Info]: Transmission.lua: Updated pulled nextQueued: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasDropDestroy2180Quinn
+200.017 Game [Info]: GetQueuedTransmission returns: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasPosRate2530Quinn
+200.017 Script [Info]: HudRedux.lua: Queuing new transmission: DZarCasPosRate2530Quinn
+200.017 Script [Info]: HudRedux.lua: Queued a transmission from Hud: /Lotus/Sounds/Dialog/ZarimanVoidCascade/DZarCasPosRate2530Quinn
+201.481 Script [Info]: Dialog.lua: Dialog::CreateOkCancel(description=/Lotus/Language/Menu/QuitGameConfirmMission, leftItem=/Menu/Confirm_Item_Yes, rightItem=/Menu/Confirm_Item_No)
+201.482 Game [Info]: LotusGameRules::OnPlayerQuitting
+201.482 Game [Info]: LotusBaseGameRules::PrepareForHostMigration
+201.483 Game [Info]: CommitInventoryChangesToDB
+201.498 Script [Info]: Dialog.lua: Dialog::CreateOkCancel(description=/Lotus/Language/Menu/UpdatingDB, leftItem=nil, rightItem=nil)
+201.500 Script [Info]: HudRedux.lua: DBG: HudVis 1
+201.512 Game [Info]: ClientImpl::Disconnect
+201.512 Game [Info]: LotusBaseGameRules::OnDisconnect
+201.512 Game [Info]: LotusBaseGameRules::PrepareForHostMigration
+202.927 Game [Info]: ClientImpl::Disconnect - delete MP session
+202.953 Script [Info]: HudRedux.lua: DBG: HudVis 0
+202.953 Game [Info]: MultiAvatarTrigger: ZarimanMissionToTownTrigger players changed 1. Enabled: 0
+203.604 Snd [Info]: Shutting down XAudio2!
+OnUploadChallengeProgressResults: mRecentSeasonChallengeCompletions=0, mSavingRecentSeasonChallengeCompletions=0
