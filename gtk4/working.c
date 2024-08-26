@@ -31,7 +31,6 @@ typedef struct {
     GtkWidget *success_label;
     GtkWidget *duration_label;
     GList *cleansing_start_times;
-    GList *grouped_durations;  // Stores the durations for calculating average
 } SuccessRateData;
 
 int count_oc_file(FILE* file, const char* search_subject_str) {
@@ -126,7 +125,9 @@ static gboolean refresh_durations(gpointer user_data) {
 
     char line[MAXLEN];
     double timestamp;
-    int cleanse_count = 0;
+    double start_time;
+    double total_duration = 0.0;
+    int completed_cleanses = 0;
 
     while (fgets(line, sizeof(line), file)) {
         if (strstr(line, "Cleansing SurvivalLifeSupportPillarCorruptible")) {
@@ -138,32 +139,22 @@ static gboolean refresh_durations(gpointer user_data) {
             parse_timestamp(line, &timestamp);
             if (data->cleansing_start_times != NULL) {
                 gdouble *start_time_ptr = (gdouble *)data->cleansing_start_times->data;
-                gdouble *duration_ptr = g_new(gdouble, 1);
-                *duration_ptr = timestamp - *start_time_ptr;
+                start_time = *start_time_ptr;
                 data->cleansing_start_times = g_list_remove(data->cleansing_start_times, start_time_ptr);
+                total_duration += (timestamp - start_time);
                 g_free(start_time_ptr);
-
-                data->grouped_durations = g_list_append(data->grouped_durations, duration_ptr);
-                cleanse_count++;
-
-                if (cleanse_count % 3 == 0) {
-                    double group_total = 0.0;
-                    GList *current_node = g_list_last(data->grouped_durations);
-                    for (int i = 0; i < 3; i++) {
-                        group_total += *(gdouble *)(current_node->data);
-                        current_node = g_list_previous(current_node);
-                    }
-                    double average_duration = group_total / 3.0;
-
-                    char label_text[MAXLEN];
-                    snprintf(label_text, MAXLEN, "Exolizer Average Cleanse Duration: %.2f seconds", average_duration);
-                    gtk_label_set_text(GTK_LABEL(data->duration_label), label_text);
-                }
+                completed_cleanses++;
             }
         }
     }
 
     fclose(file);
+
+    double average_duration = (completed_cleanses > 0) ? (total_duration / completed_cleanses) : 0.0;
+
+    char label_text[MAXLEN];
+    snprintf(label_text, MAXLEN, "Exolizer Average Cleanse Duration: %.2f seconds", average_duration);
+    gtk_label_set_text(GTK_LABEL(data->duration_label), label_text);
 
     return TRUE;  // repeat calls
 }
@@ -188,7 +179,6 @@ static void activate(GtkApplication* app, gpointer user_data) {
     GtkWidget* box;
     SuccessRateData *success_rate_data = g_new(SuccessRateData, 1);
     success_rate_data->cleansing_start_times = NULL;
-    success_rate_data->grouped_durations = NULL;
 
     window = gtk_application_window_new(app);
     gtk_window_set_title(GTK_WINDOW(window), "Gascadelyzer");
@@ -229,4 +219,3 @@ int main(int argc, char** argv) {
 
     return status;
 }
-

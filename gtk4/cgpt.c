@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <glib.h>
+#include <sys/time.h>  // For getting the current time
 
 #define MAXLEN 65536
 #define REFRESH_INTERVAL 100  // refresh interval in milliseconds
@@ -30,78 +31,13 @@ typedef struct {
     LabelData *cleansed_data;
     GtkWidget *success_label;
     GtkWidget *duration_label;
-    GList *cleansing_start_times;
-    GList *grouped_durations;  // Stores the durations for calculating average
+    GQueue *cleansing_start_times;  // Queue to hold start times
+    double total_duration;          // Total of all durations
+    int total_count;                // Count of all durations
 } SuccessRateData;
-
-int count_oc_file(FILE* file, const char* search_subject_str) {
-    char line[MAXLEN];
-    int exo_count = 0;
-
-    while (fgets(line, sizeof(line), file)) {
-        char* pos = line;
-        while ((pos = strstr(pos, search_subject_str)) != NULL) {
-            exo_count++;
-            pos += strlen(search_subject_str);
-        }
-    }
-    return exo_count;
-}
 
 void parse_timestamp(const char *line, double *timestamp) {
     sscanf(line, "%lf", timestamp);
-}
-
-static gboolean refresh_count(gpointer user_data) {
-    LabelData *data = (LabelData *)user_data;
-    GtkWidget *label = data->label;
-    const char *search_string = data->search_string;
-    const char *label_format = data->label_format;
-
-    char file_path[MAXLEN];
-
-#ifdef _WIN32
-    const char* localAppData = getenv("LOCALAPPDATA");
-    if (localAppData == NULL) {
-        localAppData = "";
-    }
-    snprintf(file_path, MAXLEN, "%s%s", localAppData, DEFAULT_PATH);
-#else
-    snprintf(file_path, MAXLEN, "%s/%s", getenv("HOME"), DEFAULT_PATH);
-#endif
-
-    FILE* file = fopen(file_path, "r");
-    if (file == NULL) {
-        g_print("Error opening file: %s\n", file_path);
-        return TRUE;  // repeat calls
-    }
-
-    data->count = count_oc_file(file, search_string);
-    fclose(file);
-
-    char label_text[MAXLEN];
-    snprintf(label_text, MAXLEN, label_format, data->count);
-    gtk_label_set_text(GTK_LABEL(label), label_text);
-
-    return TRUE;  // repeat calls
-}
-
-static gboolean refresh_success_rate(gpointer user_data) {
-    SuccessRateData *data = (SuccessRateData *)user_data;
-
-    int retired_count = data->retired_data->count;
-    int cleansed_count = data->cleansed_data->count;
-    double success_rate = 0.0;
-
-    if (retired_count != 0) {
-        success_rate = (double)retired_count / cleansed_count * 100.0;
-    }
-
-    char label_text[MAXLEN];
-    snprintf(label_text, MAXLEN, "Exolizer Defense Success Rate: %.2f%%", success_rate);
-    gtk_label_set_text(GTK_LABEL(data->success_label), label_text);
-
-    return TRUE;  // repeat calls
 }
 
 static gboolean refresh_durations(gpointer user_data) {
@@ -118,6 +54,9 @@ static gboolean refresh_durations(gpointer user_data) {
     snprintf(file_path, MAXLEN, "%s/%s", getenv("HOME"), DEFAULT_PATH);
 #endif
 
+    struct timeval start, end;
+    gettimeofday(&start, NULL);  // Start timing
+
     FILE* file = fopen(file_path, "r");
     if (file == NULL) {
         g_print("Error opening file: %s\n", file_path);
@@ -126,44 +65,39 @@ static gboolean refresh_durations(gpointer user_data) {
 
     char line[MAXLEN];
     double timestamp;
-    int cleanse_count = 0;
 
     while (fgets(line, sizeof(line), file)) {
         if (strstr(line, "Cleansing SurvivalLifeSupportPillarCorruptible")) {
             parse_timestamp(line, &timestamp);
-            gdouble *start_time_ptr = g_new(gdouble, 1);
-            *start_time_ptr = timestamp;
-            data->cleansing_start_times = g_list_append(data->cleansing_start_times, start_time_ptr);
+            double *start_time = g_new(double, 1);
+            *start_time = timestamp;
+            g_queue_push_tail(data->cleansing_start_times, start_time);
+            g_print("Logged cleansing start at %.3f seconds\n", timestamp);
         } else if (strstr(line, "Pillars used increased to")) {
             parse_timestamp(line, &timestamp);
-            if (data->cleansing_start_times != NULL) {
-                gdouble *start_time_ptr = (gdouble *)data->cleansing_start_times->data;
-                gdouble *duration_ptr = g_new(gdouble, 1);
-                *duration_ptr = timestamp - *start_time_ptr;
-                data->cleansing_start_times = g_list_remove(data->cleansing_start_times, start_time_ptr);
+            if (!g_queue_is_empty(data->cleansing_start_times)) {
+                double *start_time_ptr = g_queue_pop_head(data->cleansing_start_times);
+                double duration = timestamp - *start_time_ptr;
+                data->total_duration += duration;
+                data->total_count++;
                 g_free(start_time_ptr);
+                g_print("Logged cleansing duration: %.3f seconds\n", duration);
 
-                data->grouped_durations = g_list_append(data->grouped_durations, duration_ptr);
-                cleanse_count++;
-
-                if (cleanse_count % 3 == 0) {
-                    double group_total = 0.0;
-                    GList *current_node = g_list_last(data->grouped_durations);
-                    for (int i = 0; i < 3; i++) {
-                        group_total += *(gdouble *)(current_node->data);
-                        current_node = g_list_previous(current_node);
-                    }
-                    double average_duration = group_total / 3.0;
-
-                    char label_text[MAXLEN];
-                    snprintf(label_text, MAXLEN, "Exolizer Average Cleanse Duration: %.2f seconds", average_duration);
-                    gtk_label_set_text(GTK_LABEL(data->duration_label), label_text);
-                }
+                double average_duration = data->total_duration / data->total_count;
+                char label_text[MAXLEN];
+                snprintf(label_text, MAXLEN, "Exolizer Average Cleanse Duration: %.2f seconds", average_duration);
+                gtk_label_set_text(GTK_LABEL(data->duration_label), label_text);
+            } else {
+                g_print("Warning: No matching start time found for a completed cleanse.\n");
             }
         }
     }
 
     fclose(file);
+
+    gettimeofday(&end, NULL);  // End timing
+    double elapsed_time = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1000000.0;
+    g_print("Log file read completed in %.3f seconds\n", elapsed_time);
 
     return TRUE;  // repeat calls
 }
@@ -179,7 +113,6 @@ static void add_label(GtkWidget *box, const char *search_string, const char *lab
     data->label_format = label_format;
     data->count = 0;
 
-    g_timeout_add(interval, refresh_count, data);
     *out_data = data;
 }
 
@@ -187,8 +120,9 @@ static void activate(GtkApplication* app, gpointer user_data) {
     GtkWidget* window;
     GtkWidget* box;
     SuccessRateData *success_rate_data = g_new(SuccessRateData, 1);
-    success_rate_data->cleansing_start_times = NULL;
-    success_rate_data->grouped_durations = NULL;
+    success_rate_data->cleansing_start_times = g_queue_new();
+    success_rate_data->total_duration = 0.0;
+    success_rate_data->total_count = 0;
 
     window = gtk_application_window_new(app);
     gtk_window_set_title(GTK_WINDOW(window), "Gascadelyzer");
@@ -212,7 +146,6 @@ static void activate(GtkApplication* app, gpointer user_data) {
     gtk_box_append(GTK_BOX(box), duration_label);
     success_rate_data->duration_label = duration_label;
 
-    g_timeout_add(REFRESH_INTERVAL, refresh_success_rate, success_rate_data);
     g_timeout_add(REFRESH_INTERVAL, refresh_durations, success_rate_data);
 
     gtk_window_present(GTK_WINDOW(window));
